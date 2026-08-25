@@ -36,7 +36,7 @@ Los BDR pueden utilizar los complementos de explorador y correo electrónico par
 * **Haga preguntas en lenguaje natural** con el chat de IA, que usa sus datos de CRM, participación y centro de conocimiento.
 * **Rastree el rendimiento de las actividades de extensión** con informes de correo electrónico y de reserva de reuniones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
 
 ## Explorar la guía
 
