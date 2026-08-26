@@ -3,8 +3,11 @@ title: Revisar la bandeja de salida de correo electrónico
 description: Obtenga información sobre cómo revisar los correos electrónicos que Sales Qualifier ha enviado en su nombre, incluidas las respuestas, en la bandeja de salida de correo electrónico.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 328
