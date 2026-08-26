@@ -4,15 +4,11 @@ description: Aprenda a utilizar el chat de IA en Sales Qualifier para buscar cue
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +22,7 @@ AI Chat responde a preguntas en lenguaje natural en función de su contexto de v
 
 ## Abrir chat de IA
 
-Seleccione el botón flotante **[!UICONTROL chat de IA]** para abrir el panel de chat. El panel se abre junto a la página actual para que pueda tener en vista un cliente potencial, una cuenta o un plan de participación. Arrastre el borde del panel para cambiar su tamaño. Para cerrar el panel, vuelve a seleccionar **[!UICONTROL Charla de IA]**.
+Seleccione el botón flotante **[!UICONTROL chat de IA]** para abrir el panel de chat. El panel se abre junto a la página actual para que pueda tener a la vista un posible cliente, una cuenta o un flujo de trabajo saliente. Arrastre el borde del panel para cambiar su tamaño. Para cerrar el panel, vuelve a seleccionar **[!UICONTROL Charla de IA]**.
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ Utilice el chat de IA para las siguientes tareas:
 * **Investigue y resuma**: pida un resumen de una cuenta, un grupo comprador o la participación reciente de un posible cliente.
 * **Posicionamiento de compilación**: pídale al asistente que coloque la solución para una cuenta específica antes de una reunión.
 * **Borrador y alcance refinado**: pídale que escriba o vuelva a escribir un correo electrónico. Especifique el tono, la longitud, el idioma y si desea incluir los emojis.
-* **Obtener recomendaciones**: Pregunte a qué clientes potenciales o cuentas priorizar o solicite un objetivo o cadencia para un nuevo plan de participación.
+* **Obtener recomendaciones**: Pregunte a qué clientes potenciales o cuentas priorizar o solicite un objetivo o cadencia para un nuevo flujo de trabajo saliente.
 * **Buscar detalles de contacto**: pídale al asistente que enriquezca a un posible cliente con más información de contacto y antecedentes.
 
 ## Respuestas básicas en su guía de estrategias

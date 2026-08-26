@@ -3,14 +3,10 @@ title: Cuentas en Sales Qualifier
 description: Aprenda a revisar la inteligencia de cuentas en Sales Qualifier, incluida la investigación de IA, las noticias recientes, las oportunidades y los contactos de mayor participación, para priorizar la divulgación.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -67,7 +63,7 @@ Utilice los botones que aparecen debajo de la descripción general para cambiar 
 
 Desde la vista **[!UICONTROL Miembros principales]**, realice cualquiera de estas acciones para un contacto:
 
-* **[!UICONTROL Agregar al plan de participación]**—Inscriba al contacto en un [plan de participación](outbound-workflows.md).
+* **[!UICONTROL Agregar a flujo de trabajo saliente]**: inscriba al contacto en un [flujo de trabajo saliente](outbound-workflows.md).
 * **[!UICONTROL Agregar a la campaña de Marketo]**—Déclencheur una campaña [!DNL Marketo] para el contacto.
 
 ## Investigue la cuenta
@@ -86,7 +82,7 @@ La inteligencia de cuentas es muy valiosa cuando da forma a lo que envía:
 
 * Haga referencia a una noticia reciente o a una señal de investigación para que su apertura sea relevante en lugar de utilizar un tono genérico.
 * Compruebe las oportunidades abiertas y el valor de la canalización para decidir si prioriza la cuenta.
-* Use **[!UICONTROL Miembros principales]** para identificar con quién comunicarse y luego inscribirlos en un plan de participación.
+* Use **[!UICONTROL Miembros principales]** para identificar con quién comunicarse y luego inscribirlos en un flujo de trabajo de salida.
 * Pida a [AI Chat](ai-assistant.md) que desarrolle el posicionamiento de la cuenta antes de una llamada.
 
 >[!MORELIKETHIS]

@@ -4,18 +4,12 @@ description: Obtenga información sobre cómo crear, compartir, revisar y admini
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: 1905
 ht-degree: 0%
 
 ---
@@ -23,9 +17,9 @@ ht-degree: 0%
 
 # Flujos de trabajo salientes
 
-Un plan de participación es una cadencia de alcance impulsada por objetivos. El objetivo y los criterios de segmentación se definen. A continuación, IA propone una cadencia multitáctil y escribe contenido de correo electrónico personalizado para cada cliente potencial. Antes de activar la cadencia, revise y apruebe cada correo electrónico.
+Un flujo de trabajo saliente es una cadencia de alcance orientada a objetivos. El objetivo y los criterios de segmentación se definen. A continuación, IA propone una cadencia multitáctil y escribe contenido de correo electrónico personalizado para cada cliente potencial. Antes de activar la cadencia, revise y apruebe cada correo electrónico.
 
-Un plan de participación conecta cuatro elementos:
+Un flujo de trabajo saliente conecta cuatro elementos:
 
 * **Objetivo**: el resultado que desea obtener de la divulgación, como reservar una llamada de contacto o aumentar el registro de eventos.
 * **Filtros de segmentación**: condiciones que determinan qué clientes potenciales son elegibles.
@@ -38,24 +32,24 @@ La API utiliza el objetivo para sugerir filtros de direccionamiento, diseñar la
 
 | Concepto | Descripción |
 | --- | --- |
-| **Plan de participación** | Una actividad saliente reutilizable definida por un objetivo, filtros de objetivo, cadencia y configuración. |
+| **Flujo de trabajo saliente** | Una actividad saliente reutilizable definida por un objetivo, filtros de objetivo, cadencia y configuración. |
 | **Meta** | Lo que debe lograr el alcance. |
 | **Punto de contacto** | Un paso en la cadencia (correo electrónico, llamada de teléfono o LinkedIn In InMail), programado en relación con la inscripción. |
 | **Mensaje de Touchpoint** | Instrucciones que sigue la IA al generar una línea de asunto y un cuerpo de correo electrónico para un cliente potencial, incluidos el tono, la longitud, el enfoque y el call to action. |
 | **Cadencia** | La secuencia completa de puntos de contacto: cuántos, en qué orden y en qué días. |
-| **Filtro de segmentación** | Condición que limita el plan de participación a un subconjunto de posibles clientes. |
+| **Filtro de segmentación** | Condición que limita el flujo de trabajo saliente a un subconjunto de clientes potenciales. |
 | **Borrador** | Un correo electrónico generado que está listo para revisarse, pero aún no se ha aprobado. |
 | **Razonamiento** | La explicación de la IA de cómo escribió un correo electrónico determinado, incluidas las señales y las fuentes de datos que utilizó. |
-| **Inscripción** | Aprobación de los borradores de un posible cliente, que activa la cadencia y pone en cola los correos electrónicos que se enviarán durante la ventana de envío del plan de participación. |
+| **Inscripción** | Aprobación de los borradores de un cliente potencial, que activa la cadencia y pone en cola los correos electrónicos que se enviarán durante la ventana de envío del flujo de trabajo saliente. |
 
-En las siguientes secciones se explica cómo crear un plan de participación, revisar los correos electrónicos generados, aprobar clientes potenciales y administrar los flujos de trabajo salientes.
+En las siguientes secciones se explica cómo crear un flujo de trabajo saliente, revisar los correos electrónicos generados, aprobar clientes potenciales y administrar los flujos de trabajo salientes.
 
-## Creación de un plan de participación
+## Crear un flujo de trabajo saliente
 
-El asistente del plan de participación consta de cinco pasos: **[!UICONTROL Objetivo]**, **[!UICONTROL Segmentación]**, **[!UICONTROL Generar puntos de contacto]**, **[!UICONTROL Configuración]** y **[!UICONTROL Agregar perspectivas]**. El objetivo da forma a los pasos restantes.
+El asistente de flujo de trabajo saliente consta de cinco pasos: **[!UICONTROL Objetivo]**, **[!UICONTROL Segmentación]**, **[!UICONTROL Generar puntos de contacto]**, **[!UICONTROL Configuración]** y **[!UICONTROL Agregar perspectivas]**. El objetivo da forma a los pasos restantes.
 
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Flujos de trabajo de salida]**.
-1. En la ficha **[!UICONTROL Examinar]**, seleccione **[!UICONTROL + Crear plan de participación]** en la esquina superior derecha.
+1. En la ficha **[!UICONTROL Examinar]**, seleccione **[!UICONTROL + Crear flujo de trabajo saliente]** en la esquina superior derecha.
 
 ### Paso 1: Defina su objetivo
 
@@ -72,6 +66,8 @@ Indique un resultado específico en la meta. Por ejemplo, escriba `Book a 15-min
 
 Los filtros de segmentación definen qué clientes potenciales son aptos. Cuando se agregan perspectivas más adelante, sólo aparecen en la lista de selección los posibles clientes que coinciden con estos filtros.
 
+![Filtros de segmentación](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+
 1. Seleccione la flecha hacia abajo para abrir la lista **[!UICONTROL Agregar un filtro]** y, a continuación, seleccione un filtro.
 
 1. Establezca valores para el filtro.
@@ -82,6 +78,8 @@ Los filtros de segmentación definen qué clientes potenciales son aptos. Cuando
 ### Paso 3: Generar y revisar puntos de contacto
 
 Después de configurar el direccionamiento, la IA analiza el objetivo y los criterios de direccionamiento, define la cadencia y escribe un mensaje para cada punto de contacto. La cadencia puede incluir pasos de correo electrónico, llamada de teléfono y LinkedIn In InMail.
+
+![Puntos de contacto](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
 Expanda un punto de contacto de correo electrónico para leer su solicitud. El mensaje guía la IA a medida que escribe el correo electrónico de cada posible cliente, incluido el tono, la longitud, el enfoque y el call to action.
 
@@ -105,21 +103,23 @@ Cuando la cadencia y las indicaciones estén listas, seleccione **[!UICONTROL Si
 
 Restrinja las indicaciones del punto de contacto antes de generar correos electrónicos de clientes potenciales. AI utiliza estos mensajes para cada cliente potencial seleccionado.
 
-### Paso 4: Configurar las opciones del plan de participación
+### Paso 4: Configurar el flujo de trabajo saliente
 
-El paso **[!UICONTROL Configuración]** controla cómo se ejecuta el plan de participación.
+El paso **[!UICONTROL Configuración]** controla cómo se ejecuta el flujo de trabajo saliente.
 
-1. Revise el **[!UICONTROL nombre del plan de participación]** y cámbielo si es necesario.
-1. En **[!UICONTROL Máximo de perspectivas por plan de participación]**, confirme el número máximo de perspectivas que el plan de participación puede administrar a la vez.
+![Panel de configuración](assets/create-workflow-settings.png){width="800" zoomable="yes"}
+
+1. Revise **[!UICONTROL nombre de flujo de trabajo saliente]** y cámbielo si es necesario.
+1. En **[!UICONTROL Máximo de clientes potenciales por flujo de trabajo saliente]**, confirme el número máximo de clientes potenciales que el flujo de trabajo saliente puede administrar a la vez.
 1. Establece la ventana de **[!UICONTROL envío]** para las horas en las que se permite enviar correos electrónicos salientes.
 1. Seleccione los días de la semana en los que se pueden enviar correos electrónicos. Para evitar envíos de fin de semana, selecciona solo los días de la semana en lugar de usar una configuración **[!UICONTROL Omitir fines de semana]** por separado.
 1. Elija si desea enviar durante las horas más activas de cada posible cliente.
 1. Para detener automáticamente los puntos de contacto de seguimiento una vez que el posible cliente reserve una reunión, active **[!UICONTROL Pausa para reserva de reuniones]**.
-1. Elija si desea utilizar la zona horaria de cada posible cliente o la zona horaria **[!UICONTROL Timezone]** del plan de participación para el tiempo de envío. Si utiliza la zona horaria del plan de participación, confirme que coincida con su audiencia.
-1. En **[!UICONTROL Permisos]**, mantenga **[!UICONTROL Privado]** (predeterminado) o seleccione **[!UICONTROL Compartido con todos]**. Para obtener más información, consulte [Compartir un plan de participación](#share-an-engagement-plan).
+1. Elija si desea utilizar la zona horaria de cada cliente potencial o el flujo de trabajo saliente **[!UICONTROL Timezone]** para el tiempo de envío. Si utiliza la zona horaria del flujo de trabajo saliente, confirme que coincide con la audiencia.
+1. En **[!UICONTROL Permisos]**, mantenga **[!UICONTROL Privado]** (predeterminado) o seleccione **[!UICONTROL Compartido con todos]**. Para obtener más información, consulte [Compartir un flujo de trabajo saliente](#share-an-outbound-workflow).
 1. Seleccione **[!UICONTROL Guardar y agregar clientes potenciales]**.
 
-Un administrador configura globalmente el pie de página de exclusión y se aplica a los correos electrónicos salientes independientemente de la configuración del plan de participación. Consulte [Configurar la exclusión de correo electrónico global](integrations.md#configure-global-email-opt-out).
+Un administrador configura globalmente el pie de página de exclusión y se aplica a los correos electrónicos salientes independientemente de la configuración del flujo de trabajo saliente. Consulte [Configurar la exclusión de correo electrónico global](integrations.md#configure-global-email-opt-out).
 
 ### Paso 5: Añadir clientes potenciales e iniciar la generación de correo electrónico
 
@@ -139,9 +139,9 @@ Para cada cliente potencial, la IA combina el mensaje del punto de contacto con 
 
 ## Revisar y perfeccionar correos electrónicos generados
 
-Cuando finalice la generación, la vista de detalles Plan de participación le pedirá que revise los borradores. Sales Qualifier no envía correos electrónicos hasta que el usuario los aprueba.
+Cuando finalice la generación, la vista de detalles Flujo de trabajo saliente le pedirá que revise los borradores. Sales Qualifier no envía correos electrónicos hasta que el usuario los aprueba.
 
-1. En la vista de detalles del plan de participación, seleccione **[!UICONTROL Revisar borradores]** en el banner.
+1. En la vista de detalles del flujo de trabajo saliente, seleccione **[!UICONTROL Revisar borradores]** en el banner.
 1. El paso **[!UICONTROL Revisar puntos de contacto]** tiene dos pestañas:
    * **[!UICONTROL Listo para revisión]**: correos electrónicos que se terminaron de generar.
    * **[!UICONTROL Generando]**: correos electrónicos que se siguen escribiendo.
@@ -184,17 +184,17 @@ La aprobación activa la cadencia de un cliente potencial. El sistema no envía 
 1. En la lista de clientes potenciales de la izquierda, seleccione los clientes potenciales cuyos correos electrónicos ha revisado y que están listos para enviar.
 1. Seleccione **[!UICONTROL Aprobar e inscribir clientes potenciales]** en la esquina inferior derecha.
 
-Los correos electrónicos aprobados se envían según los días seleccionados, la ventana de envío, la opción de horas activas y la configuración de zona horaria del plan de participación. Un punto de contacto con un retraso cero envía sin espera; cada uno de los demás puntos de contacto sigue su retraso configurado. Los posibles clientes no aprobados permanecen en **[!UICONTROL Listo para revisión]**.
+Los correos electrónicos aprobados se envían según los días seleccionados, la ventana de envío, la opción de horas activas y la configuración de zona horaria del flujo de trabajo saliente. Un punto de contacto con un retraso cero envía sin espera; cada uno de los demás puntos de contacto sigue su retraso configurado. Los posibles clientes no aprobados permanecen en **[!UICONTROL Listo para revisión]**.
 
-## Compartir un plan de participación
+## Compartir un flujo de trabajo saliente
 
-Cada plan de participación tiene una configuración de **[!UICONTROL Permisos]**. Los flujos de trabajo salientes son **[!UICONTROL Privados]** de manera predeterminada. El propietario puede seleccionar **[!UICONTROL Compartido con todos]** para que el equipo disponga de un plan de participación.
+Cada flujo de trabajo saliente tiene una configuración **[!UICONTROL Permissions]**. Los flujos de trabajo salientes son **[!UICONTROL Privados]** de manera predeterminada. El propietario puede seleccionar **[!UICONTROL Compartido con todos]** para que el equipo disponga de un flujo de trabajo saliente.
 
 >[!CAUTION]
 >
->Compartir es permanente. Después de establecer un plan de participación en **[!UICONTROL Compartido con todos]**, no se podrá volver a cambiar a **[!UICONTROL Privado]**.
+>Compartir es permanente. Después de establecer un flujo de trabajo saliente en **[!UICONTROL Compartido con todos]**, no se puede volver a cambiar a **[!UICONTROL Privado]**.
 
-En un plan de participación compartido, los compañeros de equipo pueden inscribir a sus propios posibles clientes. Cada persona puede administrar o pausar solo los clientes potenciales en los que se ha inscrito, incluso cuando se utilizan acciones masivas. El propietario del plan de participación puede editar la configuración del nivel de plan, incluida la programación, la zona horaria, la cadencia y otras opciones. Esta configuración es de solo lectura para compañeros de equipo.
+En un flujo de trabajo saliente compartido, los compañeros de equipo pueden inscribir a sus propios posibles clientes. Cada persona puede administrar o pausar solo los clientes potenciales en los que se ha inscrito, incluso cuando se utilizan acciones masivas. El propietario del flujo de trabajo saliente solo puede editar la configuración del nivel de plan, incluida la programación, la zona horaria, la cadencia y otras opciones. Esta configuración es de solo lectura para compañeros de equipo.
 
 Utilice estos filtros para mantener centrados los flujos de trabajo salientes compartidos y los resultados:
 
@@ -203,14 +203,14 @@ Utilice estos filtros para mantener centrados los flujos de trabajo salientes co
 
 ## Administración de respuestas fuera de la oficina
 
-Cuando un cliente potencial responde con un mensaje fuera de la oficina, el Plan de participación lo gestiona automáticamente.
+Cuando un cliente potencial responde con un mensaje fuera de la oficina, el flujo de trabajo saliente lo gestiona automáticamente.
 
-* **Reanudación automática**: activada de forma predeterminada. Si la respuesta de Fuera de la oficina incluye una fecha de retorno, el Plan de participación reanuda la cadencia en esa fecha. Si no se indica ninguna fecha de retorno, el plan de participación se reanuda después de un búfer de reanudación después que su equipo puede configurar.
-* **Opciones manuales**: también puede reanudar, pausar u omitir el cliente prospecto manualmente. Ver [Administrar flujos de trabajo salientes existentes](#manage-existing-engagement-plans).
+* **Reanudación automática**: activada de forma predeterminada. Si la respuesta fuera de la oficina incluye una fecha de retorno, el flujo de trabajo saliente reanuda la cadencia en esa fecha. Si no se indica ninguna fecha de retorno, el flujo de trabajo saliente se reanuda después de un búfer de reanudación después de que su equipo pueda configurar.
+* **Opciones manuales**: un representante aún puede seleccionar **[!UICONTROL Reanudar ahora]** o programar una fecha de reanudación específica. Ver [Administrar flujos de trabajo salientes existentes](#manage-existing-outbound-workflows).
 
 ## Administrar flujos de trabajo salientes existentes
 
-En la página **[!UICONTROL Flujos de trabajo salientes]**, la pestaña **[!UICONTROL Examinar]** muestra todos los planes de participación disponibles para usted. Cada tarjeta muestra el objetivo, los puntos de contacto configurados y las métricas de rendimiento. Utilice esta vista para monitorizar flujos de trabajo salientes, revisar borradores o agregar clientes potenciales.
+En la página **[!UICONTROL Flujos de trabajo salientes]**, la pestaña **[!UICONTROL Examinar]** muestra todos los flujos de trabajo salientes que tiene disponibles. Cada tarjeta muestra el objetivo, los puntos de contacto configurados y las métricas de rendimiento. Utilice esta vista para monitorizar flujos de trabajo salientes, revisar borradores o agregar clientes potenciales.
 
 ## Bandeja de salida de correo
 
@@ -222,13 +222,13 @@ Al conectar el calendario, Sales Qualifier genera un vínculo de reserva persona
 
 * **Vínculos de reserva**: configure la conexión y disponibilidad del calendario en [Configuración del perfil](profile-settings.md). Añada el vínculo de reserva a su firma de correo electrónico para que aparezca en los correos electrónicos salientes.
 * **Colocación de cadencia**: Sales Qualifier inserta el vínculo de reserva en los puntos relevantes de una cadencia. Puede cambiar su ubicación.
-* **Pausa para reservas**: cuando un cliente potencial reserva una reunión, **[!UICONTROL Pausa para reservas de reuniones]** detiene más seguimientos. Consulte [Paso 4: Configurar las opciones del plan de participación](#step-4-configure-engagement-plan-settings).
+* **Pausa para reservas**: cuando un cliente potencial reserva una reunión, **[!UICONTROL Pausa para reservas de reuniones]** detiene más seguimientos. Consulte [Paso 4: Configurar los parámetros de flujo de trabajo de salida](#step-4-configure-outbound-workflow-settings).
 
 Rastrear resultados de reservas en la página [Rendimiento de salida](performance.md).
 
-## Prácticas recomendadas del plan de participación
+## Prácticas recomendadas de flujo de trabajo saliente
 
-* **Definir una meta específica.** El direccionamiento, la cadencia y los correos electrónicos se derivan del objetivo. Indique el resultado que desea que alcance el plan de participación.
+* **Definir una meta específica.** El direccionamiento, la cadencia y los correos electrónicos se derivan del objetivo. Indique el resultado que desea que alcance el flujo de trabajo saliente.
 * **Finalizar mensajes de punto de contacto antes de la generación por cliente potencial.** Después de la generación masiva, los cambios se suelen realizar de un cliente potencial a la vez.
 * **Usar razonamiento como comprobación de calidad.** Si se enfatiza la señal incorrecta o falta una señal relevante, edite el correo electrónico o revise el mensaje del punto de contacto y vuelva a generar la cadencia.
 * **Hacer coincidir la herramienta de edición con el cambio.** Utilice ediciones directas para la redacción y el tono. Use **[!UICONTROL Generar con IA]** para reestructurar o reformular.

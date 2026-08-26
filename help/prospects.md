@@ -4,16 +4,12 @@ description: Aprenda a crear, filtrar y revisar su lista de clientes potenciales
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,6 +23,7 @@ Seleccione **[!UICONTROL Clientes potenciales]** en el panel de navegación izqu
 
 * **[!UICONTROL Posibles clientes]**: posibles clientes asignados a usted en el CRM conectado.
 * **[!UICONTROL Contactos]**: contactos asignados a usted en el CRM conectado.
+* **[!UICONTROL Aspectos destacados del marketing]**: clientes potenciales con actividad de Marketo activa, como aperturas de correos electrónicos o clics.
 * **[!UICONTROL Lista de personas]**: clientes potenciales que se importan o agregan manualmente.
 
 ## Crear su lista de clientes potenciales
@@ -40,6 +37,9 @@ La lista de clientes potenciales combina personas de más de una fuente:
 Para agregar clientes potenciales que no provienen de su CRM:
 
 1. En la página **[!UICONTROL Posibles clientes]**, seleccione **[!UICONTROL Lista de personas]**.
+
+   ![Lista de personas](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Seleccione **[!UICONTROL + Agregar personas]**, luego seleccione **[!UICONTROL Importar CSV]** o **[!UICONTROL Agregar persona]**.
 
    * Para una importación de CSV, cargue un CSV en formato `firstname,email`.
@@ -52,10 +52,10 @@ Para agregar clientes potenciales que no provienen de su CRM:
 
 Seleccione **[!UICONTROL Filter]** para reducir la lista. Puede filtrar por:
 
-* Estado del plan de participación
+* Estado de flujo de trabajo saliente
 * Creado por
 * Cargo
-* cuenta
+* Cuenta
 * Origen
 * Última actualización
 
