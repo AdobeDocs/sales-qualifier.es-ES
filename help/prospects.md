@@ -1,6 +1,6 @@
 ---
 title: Clientes potenciales en Sales Qualifier
-description: Aprenda a crear, filtrar y revisar su lista de clientes potenciales en Sales Qualifier para priorizar el alcance.
+description: Obtenga información sobre cómo crear su lista de clientes potenciales desde CRM, fuentes importadas y agregadas manualmente, filtrar clientes potenciales y revisar los detalles del cliente potencial en Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ Seleccione **[!UICONTROL Clientes potenciales]** en el panel de navegación izqu
 
 * **[!UICONTROL Posibles clientes]**: posibles clientes asignados a usted en el CRM conectado.
 * **[!UICONTROL Contactos]**: contactos asignados a usted en el CRM conectado.
+* **[!UICONTROL Aspectos destacados del marketing]**: clientes potenciales con actividad de Marketo activa, como aperturas de correos electrónicos o clics.
 * **[!UICONTROL Lista de personas]**: clientes potenciales que se importan o agregan manualmente.
 
 ## Crear su lista de clientes potenciales
@@ -40,6 +41,9 @@ La lista de clientes potenciales combina personas de más de una fuente:
 Para agregar clientes potenciales que no provienen de su CRM:
 
 1. En la página **[!UICONTROL Posibles clientes]**, seleccione **[!UICONTROL Lista de personas]**.
+
+   ![Lista de personas](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Seleccione **[!UICONTROL + Agregar personas]**, luego seleccione **[!UICONTROL Importar CSV]** o **[!UICONTROL Agregar persona]**.
 
    * Para una importación de CSV, cargue un CSV en formato `firstname,email`.
@@ -52,7 +56,7 @@ Para agregar clientes potenciales que no provienen de su CRM:
 
 Seleccione **[!UICONTROL Filter]** para reducir la lista. Puede filtrar por:
 
-* Estado del plan de participación
+* Estado de flujo de trabajo saliente
 * Creado por
 * Cargo
 * cuenta
@@ -63,18 +67,18 @@ Los administradores también pueden hacer que los campos CRM asignados estén di
 
 En **[!UICONTROL Mis contactos de oportunidad]**, también puede filtrar contactos por campos de sus oportunidades asociadas, como escenario, tipo y fecha de cierre. Los campos de oportunidad tienen etiquetas como **[!UICONTROL Stage (Opportunity)]**, que los distingue de los campos de contacto. El administrador controla qué campos de oportunidad están disponibles como filtros.
 
-### Filtrar por participación de Marketo
+### Filtrar por aspectos destacados de marketing
 
 Busque y dé prioridad a los posibles clientes por su participación de [!DNL Marketo] en directo, como aperturas y clics de correos electrónicos, visitas web, rellenos de formularios y momentos interesantes. El compromiso aparece en tiempo casi real, a medida que sucede.
 
-Para filtrar posibles clientes por participación de Marketo:
+Para filtrar posibles clientes por Aspectos destacados de marketing:
 
 1. Seleccione **[!UICONTROL Filtro]**.
-1. Agregue un filtro de participación de [!DNL Marketo] y establezca el tipo de actividad, la campaña u otros atributos para que se centren en la participación que importa.
+1. Agregue un filtro de Elementos destacados de marketing y establezca el tipo de actividad, la campaña u otros atributos para que se centren en la participación que importa.
 
 Cada posible cliente muestra su última actividad [!DNL Marketo] junto con el historial reciente.
 
-El filtrado de participación de Marketo está disponible en todas las regiones de producción. El administrador lo activa para su organización y zona protegida, y un especialista en marketing finaliza una configuración única en [!DNL Marketo]. Ver [Activar el filtrado de participación de Marketo](integrations.md#turn-on-marketo-engagement-filtering).
+Marketing Highlights está disponible en todas las regiones de producción. Un administrador completa una configuración única que conecta a [!DNL Marketo] con Sales Qualifier. Ver [Configurar aspectos destacados de marketing](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Revisar detalles del cliente potencial
 

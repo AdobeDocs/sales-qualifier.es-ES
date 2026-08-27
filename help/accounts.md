@@ -10,7 +10,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -67,7 +67,7 @@ Utilice los botones que aparecen debajo de la descripción general para cambiar 
 
 Desde la vista **[!UICONTROL Miembros principales]**, realice cualquiera de estas acciones para un contacto:
 
-* **[!UICONTROL Agregar al plan de participación]**—Inscriba al contacto en un [plan de participación](outbound-workflows.md).
+* **[!UICONTROL Agregar a flujo de trabajo saliente]**: inscriba al contacto en un [flujo de trabajo saliente](outbound-workflows.md).
 * **[!UICONTROL Agregar a la campaña de Marketo]**—Déclencheur una campaña [!DNL Marketo] para el contacto.
 
 ## Investigue la cuenta
@@ -86,7 +86,7 @@ La inteligencia de cuentas es muy valiosa cuando da forma a lo que envía:
 
 * Haga referencia a una noticia reciente o a una señal de investigación para que su apertura sea relevante en lugar de utilizar un tono genérico.
 * Compruebe las oportunidades abiertas y el valor de la canalización para decidir si prioriza la cuenta.
-* Use **[!UICONTROL Miembros principales]** para identificar con quién comunicarse y luego inscribirlos en un plan de participación.
+* Use **[!UICONTROL Miembros principales]** para identificar con quién comunicarse y luego inscribirlos en un flujo de trabajo de salida.
 * Pida a [AI Chat](ai-assistant.md) que desarrolle el posicionamiento de la cuenta antes de una llamada.
 
 >[!MORELIKETHIS]

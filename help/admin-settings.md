@@ -10,7 +10,7 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 670
 ht-degree: 0%
@@ -70,7 +70,7 @@ Los campos asignados aparecen en las áreas correspondientes de Sales Qualifier:
 
 1. De **[!UICONTROL conexiones CRM]**, seleccione **[!UICONTROL Administrar]** para el CRM conectado.
 1. Abrir **[!UICONTROL asignación saliente]**.
-1. Active **[!UICONTROL Sincronización de actividades]** para sincronizar las actividades de Sales Qualifier con CRM y Marketo. Las actividades de envío, apertura, clic y respuesta por correo electrónico incluyen el nombre del plan de participación.
+1. Active **[!UICONTROL Sincronización de actividades]** para sincronizar las actividades de Sales Qualifier con CRM y Marketo. Las actividades de enviar, abrir, hacer clic y responder por correo electrónico incluyen el nombre del flujo de trabajo saliente.
 
 Cuando la sincronización de actividades está desactivada, Sales Qualifier sigue utilizando datos CRM entrantes, pero no sincroniza las actividades de divulgación con CRM o Marketo.
 

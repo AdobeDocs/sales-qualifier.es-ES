@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ La ficha **[!UICONTROL Tareas]** informa sobre la divulgación manual:
 
 ## Rendimiento de campaña
 
-**[!UICONTROL Rendimiento de la campaña]** informa sobre los resultados salientes por campaña del plan de participación:
+**[!UICONTROL Rendimiento de la campaña]** informa sobre los resultados salientes por campaña de flujo de trabajo saliente:
 
 * **Mosaicos KPI**: clientes potenciales activos, tasa de apertura, tasa de clics, tasa de respuesta y reuniones reservadas.
 * **Gráfico de tendencias de métricas de campaña**: KPI de campaña durante el período de tiempo seleccionado.
