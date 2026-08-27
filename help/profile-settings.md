@@ -4,14 +4,11 @@ description: Obtenga información sobre cómo configurar la conexión de correo 
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 394
 ht-degree: 3%
 
 ---
@@ -21,14 +18,19 @@ ht-degree: 3%
 
 En el panel de navegación izquierdo, expanda **[!UICONTROL Configuración]** y seleccione **[!UICONTROL Configuración del perfil]**. Utilice esta configuración para administrar sus datos personales, la conexión de correo electrónico, el calendario y la disponibilidad del chat.
 
+![Configuración del perfil](assets/profile-email-config.png)
+
 ## Configuración de correo electrónico
 
 En la pestaña **[!UICONTROL Configuración de correo electrónico]**, configure las conexiones de correo electrónico.
 
-* **[!UICONTROL Conexiones de correo electrónico]**: seleccione **[!UICONTROL Conectar Outlook]** y siga el proceso de inicio de sesión de Microsoft. Consulte [Conectar Outlook](integrations.md#connect-outlook) para obtener acceso que usted apruebe y la ruta de aprobación del administrador, si es necesario.
+* **[!UICONTROL Conexiones de correo electrónico]**: seleccione Microsoft Outlook o Google y siga el proceso de inicio de sesión. Consulte [Conectar Outlook](integrations.md#connect-outlook) para obtener acceso que usted apruebe y la ruta de aprobación del administrador, si es necesario.
 * **[!UICONTROL Firma de correo electrónico]**: agregue o actualice la firma utilizada en los correos electrónicos generados. Incluya su vínculo [reserva de reuniones](outbound-workflows.md#meeting-booking) para que los posibles clientes puedan programar su hora con usted.
+* **[!UICONTROL Vínculo de reserva de reunión]** - Envíe una invitación a una reunión en sus correos electrónicos. Toma la dirección URL de la reunión.
 
 ### Contexto de redacción de correo electrónico
+
+![Contexto del correo electrónico](assets/profile-email-instructions.png)
 
 Use **[!UICONTROL Contexto del borrador del correo electrónico]** para establecer el tono, la estructura y el estilo del correo electrónico, de modo que los correos electrónicos sean coherentes.
 

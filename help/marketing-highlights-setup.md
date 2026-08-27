@@ -3,18 +3,12 @@ title: Configurar aspectos destacados de marketing
 description: Aprenda a conectar Marketo a Sales Qualifier para que los representantes puedan ver y filtrar posibles clientes por actividad de Marketo en directo en Elementos destacados de marketing.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 3%
 
 # Configurar aspectos destacados de marketing
 
-Resaltados de marketing muestra la actividad [!DNL Marketo] activa de cada posible cliente, como aperturas de correo electrónico y clics, visitas web y rellenos de formulario, en la ficha **[!UICONTROL Aspectos destacados de marketing]** de un posible cliente en Sales Qualifier. Este artículo explica cómo conectar su instancia de [!DNL Marketo] para que la actividad fluya.
+Marketing Highlights muestra la actividad [!DNL Marketo] activa de cada posible cliente, tal como aperturas de correo electrónico y clics, visitas web y rellenos de formularios. Este artículo explica cómo conectar su instancia de [!DNL Marketo] para que la actividad fluya.
 
 >[!IMPORTANT]
 >
@@ -85,7 +79,7 @@ Para crear el webhook:
 1. Seleccione **[!UICONTROL Nuevo webhook]**.
 1. Establece **[!UICONTROL URL]** a la URL de punto final para tu región desde [Parte B](#part-b-gather-your-endpoint-and-identifiers).
 1. Establecer **[!UICONTROL tipo de solicitud]** en `POST`.
-1. Establezca la codificación de token de solicitud **[!UICONTROL 1&rbrace; en `JSON`.]** Esta configuración es obligatoria.
+1. Establezca la codificación de token de solicitud **[!UICONTROL 1} en `JSON`.]** Esta configuración es obligatoria.
 1. Pegue la plantilla de carga útil siguiente en **[!UICONTROL Template]**. Use **[!UICONTROL Insertar token]** de [!DNL Marketo] para que coincidan con los nombres de campo de su instancia.
 
    >[!NOTE]

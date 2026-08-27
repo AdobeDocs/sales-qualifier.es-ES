@@ -4,18 +4,13 @@ description: Obtenga información sobre Sales Qualifier, una aplicación basada 
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -36,13 +31,13 @@ Los BDR pueden utilizar los complementos de explorador y correo electrónico par
 * **Haga preguntas en lenguaje natural** con el chat de IA, que usa sus datos de CRM, participación y centro de conocimiento.
 * **Rastree el rendimiento de las actividades de extensión** con informes de correo electrónico y de reserva de reuniones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Explorar la guía
 
 ::::landing-cards-container
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
@@ -52,7 +47,7 @@ Complete la configuración de administrador única para grupos de usuarios y una
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Clientes potenciales
 
@@ -62,7 +57,7 @@ Genere, filtre y revise su lista de clientes potenciales.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cuentas
 
@@ -72,7 +67,7 @@ Priorice el alcance con los datos de participación y canalización a nivel de c
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Flujos de trabajo salientes
 
@@ -82,7 +77,7 @@ Cree cadencias dirigidas por objetivos con correos electrónicos personalizados 
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Tareas
 
@@ -92,7 +87,7 @@ Procesar llamadas telefónicas, LinkedIn InMail y tareas de revisión de correo 
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Desempeño
 
@@ -102,17 +97,17 @@ Revisar el rendimiento de correo electrónico y reserva de reuniones.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Centro de información
 
 Cree un manual que apoye el alcance y la asistencia de la IA en sus materiales.
 
-[Centro de información](knowledge-center.md)
+[Centro de información](admin-settings.md#knowledge-center)
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Integraciones
 
@@ -122,7 +117,7 @@ Conecte Salesforce o Microsoft Dynamics 365 y asigne los campos.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuración de perfil
 
@@ -132,17 +127,7 @@ Configure la disponibilidad del correo electrónico, la firma y el calendario.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
-
-Funciones de usuario y permisos
-
-Comprender el modelo de grupo de usuarios y administradores.
-
-[Funciones de usuario y permisos](user-roles-permissions.md)
-:::
-
-:::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Chat de IA
 

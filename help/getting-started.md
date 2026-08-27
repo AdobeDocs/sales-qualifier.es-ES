@@ -4,19 +4,12 @@ description: Obtenga información sobre cómo completar la configuración de adm
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,7 +23,9 @@ Una vez que Adobe aprovisiona Sales Qualifier para su organización, un administ
 
 ## Configuración de grupos de usuarios
 
-Dos grupos de usuarios en Adobe Admin Console controlan el acceso a Sales Qualifier. Cree ambos grupos antes de que los usuarios inicien sesión.
+Los grupos de usuarios en Adobe Admin Console se utilizan para controlar el acceso a Sales Qualifier. Ambos grupos deben crearse antes de que los usuarios puedan iniciar sesión.
+
+Consulte la [documentación de Adobe Admin Console](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) para obtener información sobre cómo configurar grupos.
 
 >[!PREREQUISITES]
 >
@@ -43,6 +38,8 @@ Dos grupos de usuarios en Adobe Admin Console controlan el acceso a Sales Qualif
 
 Los usuarios deben pertenecer al grupo de usuarios `Sales Qualifier` para tener acceso a la aplicación.
 
+Estos pasos se realizan en Adobe Admin Console.
+
 1. En el conmutador de aplicaciones de nueve puntos, seleccione **[!UICONTROL Admin Console]**.
 1. Seleccione **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]** > **[!UICONTROL Nuevo grupo de usuarios]**.
 1. Escriba `Sales Qualifier` en el nombre del grupo y seleccione **[!UICONTROL Guardar]**.
@@ -53,18 +50,16 @@ Los usuarios deben pertenecer al grupo de usuarios `Sales Qualifier` para tener 
 
 ### Administradores de Sales Qualifier
 
-Los administradores que configuran conexiones CRM, [Centro de conocimiento](knowledge-center.md) y la configuración global de exclusión de correo electrónico también deben pertenecer al grupo de usuarios `Sales Qualifier Admins`.
+Los administradores que configuran conexiones CRM, [Centro de conocimiento](admin-settings.md#knowledge-center) y la configuración global de exclusión de correo electrónico también deben pertenecer al grupo de usuarios `Sales Qualifier Admins`.
 
 1. En Adobe Admin Console, seleccione **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]** > **[!UICONTROL Nuevo grupo de usuarios]**.
 1. Escriba `Sales Qualifier Admins` en el nombre del grupo y seleccione **[!UICONTROL Guardar]**.
 1. Abra **[!UICONTROL Usuarios]**, seleccione **[!UICONTROL Agregar usuarios]** y agregue los administradores.
 1. Confirme que cada administrador también es miembro del grupo `Sales Qualifier`.
 
-La pertenencia a ambos grupos hace que **[!UICONTROL Configuración de administración]** sea visible en **[!UICONTROL Administración]** en el panel de navegación izquierdo. Los usuarios estándar trabajan con los campos, filtros y libros de reproducción que configuran los administradores. El pie de página de exclusión configurado se aplica automáticamente a sus correos electrónicos salientes. Los usuarios estándar no pueden cambiar esta configuración. Consulte [Funciones de usuario y permisos](user-roles-permissions.md) para obtener más información.
+La pertenencia a ambos grupos hace que **[!UICONTROL Configuración de administración]** sea visible en **[!UICONTROL Administración]** en el panel de navegación izquierdo. Los usuarios estándar trabajan con los campos, filtros y libros de reproducción que configuran los administradores. El pie de página de exclusión configurado se aplica automáticamente a sus correos electrónicos salientes. Los usuarios estándar no pueden cambiar esta configuración.
 
->[!NOTE]
->
->Los nombres de los grupos de usuarios deben coincidir exactamente como se muestra en los pasos anteriores.
+Los nombres de los grupos de usuarios deben coincidir exactamente como se muestra en los pasos anteriores.
 
 También puede crear un grupo `Sales Qualifier BDR managers` opcional. Los miembros de este grupo pueden acceder a los informes de rendimiento del correo electrónico.
 
@@ -116,9 +111,7 @@ Un administrador del sistema de Salesforce crea una aplicación cliente externa 
    * URL de devolución de llamada
    * URL de instancia de Salesforce
 
->[!IMPORTANT]
->
->No enviar secretos de cliente por correo electrónico. Utilice el canal seguro aprobado de su organización para compartir credenciales con quien las introduzca en Sales Qualifier.
+Los pasos pueden ser ligeramente diferentes de como se describe aquí. Consulte [Documentación de Salesforce](https://help.salesforce.com/s/) para obtener más información.
 
 ### Búsqueda de la URL de instancia de Salesforce
 
@@ -154,9 +147,9 @@ Un administrador de Microsoft Dynamics 365 o Azure registra una aplicación y la
 1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]** y seleccione **[!UICONTROL Configuración de administración]**.
 1. Seleccione **[!UICONTROL conexiones CRM]** en **[!UICONTROL Integraciones]**.
 
-   Las versiones anteriores de la interfaz podrían mostrar esta área como **[!UICONTROL Integraciones]** en **[!UICONTROL Administración]**.
-
    La página muestra tarjetas para Salesforce y Microsoft Dynamics. Una conexión inactiva muestra **[!UICONTROL Connect]**. Una conexión configurada muestra **[!UICONTROL Conectado]** y **[!UICONTROL Administrar]**.
+
+   ![Credenciales de Salesforce](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Connect]** para el CRM que utilice.
 1. Introduzca las credenciales y la URL de instancia de su administrador de CRM.
@@ -164,18 +157,9 @@ Un administrador de Microsoft Dynamics 365 o Azure registra una aplicación y la
 
 ### Importar campos de CRM
 
-Después de conectar el CRM, configure la asignación de entrada para elegir qué campos de CRM aparecen en Sales Qualifier.
+Después de conectar el CRM, configure la asignación de entrada para determinar qué campos de CRM aparecen en Sales Qualifier. En la tarjeta CRM conectada, seleccione **[!UICONTROL Administrar]** para abrir **[!UICONTROL Asignación entrante]** y, a continuación, agregue una sección para cada tipo de entidad cuyos campos desee importar.
 
-1. En la tarjeta CRM conectada, seleccione **[!UICONTROL Administrar]** para abrir **[!UICONTROL Asignación entrante]**.
-1. Seleccione **[!UICONTROL Agregar sección]**.
-1. Introduzca un nombre de sección y una descripción.
-1. Seleccione el tipo de entidad. **[!UICONTROL Clientes potenciales]** está seleccionado de forma predeterminada. También están disponibles **[!UICONTROL Contactos]**, **[!UICONTROL Cuentas]** y **[!UICONTROL Oportunidades]**.
-1. Seleccione los campos CRM que desea importar.
-1. Previsualice la sección y seleccione **[!UICONTROL Agregar]**.
-
-Los campos de posible cliente aparecen en la ficha **[!UICONTROL Persona]**, los campos de cuenta aparecen en la ficha **[!UICONTROL Cuenta]** y los campos de oportunidad aparecen en la sección **[!UICONTROL Oportunidad de cuenta]**. Active **[!UICONTROL Filtrable]** para cada campo asignado que los representantes necesiten como filtro.
-
-Consulte [Integraciones](integrations.md#map-crm-fields-inbound-mapping) para administrar la asignación y sincronización de campos.
+Consulte [Asignar campos CRM (asignación entrante)](integrations.md#map-crm-fields-inbound-mapping) para ver los pasos completos, incluido cómo hacer que los campos importados estén disponibles como filtros.
 
 ## Próximos pasos
 
@@ -183,4 +167,3 @@ Consulte [Integraciones](integrations.md#map-crm-fields-inbound-mapping) para ad
 >
 >* [Clientes potenciales](prospects.md)
 >* [Flujos de trabajo salientes](outbound-workflows.md)
->* [Roles y permisos de usuario](user-roles-permissions.md)

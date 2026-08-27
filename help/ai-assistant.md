@@ -4,17 +4,13 @@ description: Aprenda a utilizar el chat de IA en Sales Qualifier para buscar cue
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 1%
 # Chat de IA
 
 AI Chat responde a preguntas en lenguaje natural en función de su contexto de ventas. Utilícelo para buscar una cuenta, prepararse para una llamada, realizar un borrador de alcance y priorizar su trabajo sin salir de Sales Qualifier.
+
+![Botón de chat de IA](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## Abrir chat de IA
 
@@ -36,7 +34,7 @@ Seleccione el botón flotante **[!UICONTROL chat de IA]** para abrir el panel de
 
 AI Chat puede utilizar estas fuentes:
 
-* El manual de su organización en [Centro de conocimientos](knowledge-center.md).
+* El manual de su organización en [Centro de conocimientos](admin-settings.md#knowledge-center).
 * Su CRM conectado, incluidos posibles clientes, contactos, cuentas, oportunidades y actividades.
 * [!DNL Marketo] datos de actividad y participación.
 * Investigación de cuentas y noticias recientes recopiladas por Account Qualification Agent.
@@ -54,7 +52,7 @@ Utilice el chat de IA para las siguientes tareas:
 
 ## Respuestas básicas en su guía de estrategias
 
-Para usar tu manual de [Centro de conocimientos](knowledge-center.md), consulta el Centro de conocimientos en tu pregunta. Por ejemplo:
+Para usar tu manual de [Centro de conocimientos](admin-settings.md#knowledge-center), consulta el Centro de conocimientos en tu pregunta. Por ejemplo:
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +74,6 @@ El uso de AI Chat por parte de su organización se rige por los términos de IA 
 
 >[!MORELIKETHIS]
 >
->* [Centro de conocimientos](knowledge-center.md)
+>* [Centro de conocimientos](admin-settings.md#knowledge-center)
 >* [Cuentas](accounts.md)
 >* [Flujos de trabajo salientes](outbound-workflows.md)
