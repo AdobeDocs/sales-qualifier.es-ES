@@ -10,9 +10,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Abra una cuenta desde el perfil de un cliente potencial asociado a ella.
 
 1. Seleccione **[!UICONTROL Clientes potenciales]** en el panel de navegación izquierdo y abra un cliente potencial. Ver [clientes potenciales](prospects.md).
 1. En la página de detalles del posible cliente, seleccione la ficha **[!UICONTROL Cuenta]**.
+
+![Página de detalles del cliente potencial con fichas de persona y cuenta](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifier identifica la cuenta del registro de CRM del cliente potencial. La misma vista de cuenta está disponible en todos los clientes potenciales asociados a esa cuenta. Si Sales Qualifier no puede coincidir con una cuenta, la pestaña muestra _No se encontró ninguna cuenta_.
 
@@ -77,6 +79,8 @@ La ficha **[!UICONTROL Investigación de la cuenta]** contiene tres áreas:
 * **[!UICONTROL Categorías de investigación]**: temas de investigación. Seleccione una categoría para ver su búsqueda en el panel central.
 * **Contenido de investigación**: tarjetas de investigación generadas por IA agrupadas por categoría. Una tarjeta puede incluir el dominio de origen y las fechas en las que se detectó la señal por primera vez y por última vez.
 * **[!UICONTROL Noticias recientes]**: noticias actuales sobre la cuenta, incluidas fechas, etiquetas y vínculos de origen.
+
+![Ficha de investigación de la cuenta](./assets/account-detail.png){width="800" zoomable="yes"}
 
 Si las investigaciones o las noticias no se pueden cargar, cada área ofrece una acción **[!UICONTROL Recargar]** para intentarlo de nuevo.
 

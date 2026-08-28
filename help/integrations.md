@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Este artículo explica cómo conectar Outlook, administrar una conexión CRM, as
 
 >[!IMPORTANT]
 >
->La conexión de Outlook es por representante. La configuración de CRM y conformidad descrita más adelante en este artículo se aplica a toda la organización. Para tener acceso a esa configuración en toda la organización, debe pertenecer a los grupos de usuarios `Sales Qualifier` y `Sales Qualifier Admins`. Los usuarios estándar pueden utilizar los datos y filtros de CRM configurados, pero no pueden cambiar la configuración. Consulte [Funciones de usuario y permisos](user-roles-permissions.md).
+>La conexión de Outlook es por representante. La configuración de CRM y conformidad descrita más adelante en este artículo se aplica a toda la organización. Para tener acceso a esa configuración en toda la organización, debe pertenecer a los grupos de usuarios `Sales Qualifier` y `Sales Qualifier Admins`. Los usuarios estándar pueden utilizar los datos y filtros de CRM configurados, pero no pueden cambiar la configuración.
 
 ## Conectar Outlook
 
@@ -67,7 +67,7 @@ En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]** y
 | **[!UICONTROL Integraciones]** | **[!UICONTROL Conexiones CRM]**, **[!UICONTROL Centro de conocimiento]** |
 | **[!UICONTROL Cumplimiento]** | **[!UICONTROL Configuración de correo electrónico]** |
 
-Para el Centro de conocimientos, consulte [Centro de conocimientos](knowledge-center.md).
+Para el Centro de conocimientos, consulte [Crear un manual de centro de conocimientos](admin-settings.md#knowledge-center).
 
 ## Administrar conexiones CRM
 
@@ -96,7 +96,7 @@ Una tarjeta sin configurar muestra **[!UICONTROL Connect]**. Una tarjeta configu
 
    Escriba **[!UICONTROL ID de cliente (clave de consumidor)]**, **[!UICONTROL URL de instancia]** y **[!UICONTROL Secreto de cliente]**. Utilice el formulario de URL de instancia canónica `https://{{mydomain}}.my.salesforce.com`.
 
-   ![Conexión de Salesforce](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Credenciales de Salesforce](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ Si Sales Qualifier rechaza las credenciales, identifica la causa, como credencia
 
 La asignación de entrada controla qué campos CRM importa Sales Qualifier y dónde aparecen. Los campos se agrupan en secciones y cada sección pertenece a un tipo de entidad.
 
+![Asignación de entrada](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. En la tarjeta CRM conectada, seleccione **[!UICONTROL Administrar]**.
 1. En la ficha **[!UICONTROL Asignación entrante]**, seleccione **[!UICONTROL Agregar sección]**.
+
+   ![Agregar sección](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. En el paso **Seleccionar sección**, elija el tipo de entidad y, a continuación, seleccione **[!UICONTROL Siguiente]**:
 
    | Entidad | Dónde aparecen sus campos |
@@ -197,5 +202,4 @@ El administrador de CRM prepara el acceso a la API en Salesforce o Dynamics. A c
 >[!MORELIKETHIS]
 >
 >* [Introducción](getting-started.md)
->* [Roles y permisos de usuario](user-roles-permissions.md)
 >* [Cuentas](accounts.md)

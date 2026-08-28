@@ -6,9 +6,9 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 En el panel de navegación de la izquierda, seleccione **[!UICONTROL Rendimiento de salida]** para rastrear la actividad y los resultados de salida de su equipo. El tablero tiene dos vistas: **[!UICONTROL Rendimiento de la organización]** y **[!UICONTROL Rendimiento de la campaña]**.
 
-[Rendimiento de salida](assets/outbound-performance.png){width="800" zoomable="yes"}
+![Rendimiento de salida](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## Filtro y período de tiempo
 
@@ -33,7 +33,7 @@ Estos controles se aplican a todas las vistas y pestañas:
 
 ### Pestaña Información general
 
-La pestaña **[!UICONTROL Información general]** resume los resultados salientes de un vistazo:
+La pestaña **[!UICONTROL Información general]** resume los resultados salientes de un vistazo. Haga clic en cualquiera de los cuadros para mostrar el gráfico con esa información.
 
 * **Mosaicos**: Canalización, participación por correo electrónico y actividad manual, cada uno con un cambio de tendencia con respecto al período anterior.
 * **Gráfico de tendencias de rendimiento**: Rendimiento saliente durante el período de tiempo seleccionado.

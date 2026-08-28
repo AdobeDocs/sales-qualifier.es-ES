@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ Establezca un retraso de punto de contacto en días, horas y minutos. Establezca
 
 #### Uso del Centro de conocimiento en las indicaciones
 
-Si su organización ha creado un manual de [Centro de conocimiento](knowledge-center.md), consulte el manual. Asigne un nombre al documento y describa el contexto que desea utilizar. Por ejemplo, escriba `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
+Si su organización ha creado un manual de [Centro de conocimiento](admin-settings.md#knowledge-center), consulte el manual. Asigne un nombre al documento y describa el contexto que desea utilizar. Por ejemplo, escriba `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
 
 Cuando la cadencia y las indicaciones estén listas, seleccione **[!UICONTROL Siguiente: Configuración]**.
 
@@ -245,5 +245,5 @@ Rastrear resultados de reservas en la página [Rendimiento de salida](performanc
 >[!MORELIKETHIS]
 >
 >* [Tareas](tasks.md)
->* [Centro de conocimientos](knowledge-center.md)
+>* [Centro de conocimientos](admin-settings.md#knowledge-center)
 >* [Rendimiento de salida](performance.md)

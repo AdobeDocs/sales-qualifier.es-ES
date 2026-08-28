@@ -12,10 +12,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -108,7 +108,7 @@ Centro de información
 
 Cree un manual que apoye el alcance y la asistencia de la IA en sus materiales.
 
-[Centro de información](knowledge-center.md)
+[Centro de información](admin-settings.md#knowledge-center)
 :::
 
 :::card
@@ -129,16 +129,6 @@ Configuración de perfil
 Configure la disponibilidad del correo electrónico, la firma y el calendario.
 
 [Configuración de perfil](profile-settings.md)
-:::
-
-:::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
-
-Funciones de usuario y permisos
-
-Comprender el modelo de grupo de usuarios y administradores.
-
-[Funciones de usuario y permisos](user-roles-permissions.md)
 :::
 
 :::card
