@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Use **[!UICONTROL Tareas]** para completar las acciones generadas por los flujos de trabajo salientes. Seleccione una tarea, tome medidas, márquela como completada y continúe a la siguiente tarea sin abandonar la página.
 
 En el panel de navegación izquierdo, vaya a **[!UICONTROL Actividades]** > **[!UICONTROL Tareas]**.
+
+![Panel de tareas](assets/tasks.png)
 
 ## Vistas de tareas
 
@@ -43,6 +45,8 @@ Las tareas manuales están vinculadas a los pasos del flujo de trabajo saliente 
 * **[!UICONTROL LinkedIn In InMail]**: se crea cuando una cadencia alcanza un paso de LinkedIn In InMail. El panel de trabajo muestra el contenido que se copia y envía desde LinkedIn. Expanda **[!UICONTROL Motivo de IA]** para revisar el motivo.
 
 * **[!UICONTROL Revisión de correo electrónico]**: Creada después de que Sales Qualifier genere los correos electrónicos personalizados de un cliente potencial. Seleccione **[!UICONTROL Revisar correos electrónicos]** para revisar y aprobar los borradores antes de que comience el alcance. Ver [Revisar y perfeccionar los correos electrónicos generados](outbound-workflows.md#review-and-refine-generated-emails).
+
+![Revisión de correo electrónico](assets/tasks-review.png)
 
 ### El panel de trabajo
 
