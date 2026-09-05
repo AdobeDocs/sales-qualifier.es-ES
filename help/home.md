@@ -132,7 +132,7 @@ Configure la disponibilidad del correo electrónico, la firma y el calendario.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Chat de IA
 
