@@ -4,17 +4,13 @@ description: Obtenga información sobre cómo crear su lista de clientes potenci
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 2%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -48,6 +44,7 @@ Para agregar clientes potenciales que no provienen de su CRM:
 
    * Para una importación de CSV, cargue un CSV en formato `firstname,email`.
      El nombre y el correo electrónico son obligatorios. El apellido es opcional. La plantilla CSV no incluye la columna ID de posible cliente de CRM, pero puede agregar la columna y sus valores al archivo antes de la importación. Si la importación falla, revise el mensaje de error de los campos o valores para corregirlos y, a continuación, cargue el archivo de nuevo.
+     Asigne cualquier campo CSV personalizado o adicional, no solo los estándar. Sales Qualifier guarda estos valores en cada posible cliente y los pone a disposición más adelante, incluso para la [generación de correo electrónico](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Para añadir a una persona manualmente, introduzca sus detalles en el formulario.
 
 1. Seleccione **[!UICONTROL Guardar]**.
@@ -59,7 +56,7 @@ Seleccione **[!UICONTROL Filter]** para reducir la lista. Puede filtrar por:
 * Estado de flujo de trabajo saliente
 * Creado por
 * Cargo
-* cuenta
+* Cuenta
 * Origen
 * Última actualización
 
@@ -88,6 +85,13 @@ Seleccione un cliente potencial para abrir su perfil. Revise las señales que im
 * **Lista de actividades**: una lista cronológica de actividades y comportamiento reciente.
 * **Vista de cronología**: una cronología visual de la participación en todos los canales.
 * **Contenido visto**: páginas web y recursos que el cliente potencial vio. Seleccione un elemento para abrirlo.
+
+### Generar preparación de reunión
+
+Además del resumen de la persona de IA permanente, puede generar una preparación de reunión adaptada a una llamada específica desde la pestaña **[!UICONTROL Investigación de la reunión]**, junto a **[!UICONTROL Investigación de la cuenta]**.
+
+* **Basado en objetivos**: si el cliente potencial está inscrito en un flujo de trabajo saliente en ejecución, selecciónelo. La preparación se ajusta al objetivo de ese flujo de trabajo saliente, como reservar una reunión, presentar un producto, invitar a un evento o volver a atraer al posible cliente.
+* **Mensaje personalizado**: escriba para qué desea prepararse, por ejemplo `Focus on renewal risk` o `Prepare for a technical deep dive with their IT lead`. La preparación coincide con el mensaje. La opción de mensaje personalizado está disponible siempre que el cliente potencial no esté en un flujo de trabajo saliente en ejecución.
 
 >[!MORELIKETHIS]
 >

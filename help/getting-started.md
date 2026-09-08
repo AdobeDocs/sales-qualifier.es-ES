@@ -4,19 +4,12 @@ description: Obtenga información sobre cómo completar la configuración de adm
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -32,7 +25,7 @@ Una vez que Adobe aprovisiona Sales Qualifier para su organización, un administ
 
 Los grupos de usuarios en Adobe Admin Console se utilizan para controlar el acceso a Sales Qualifier. Ambos grupos deben crearse antes de que los usuarios puedan iniciar sesión.
 
-Consulte la [documentación de Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/users/users-and-groups/user-groups.html) para obtener información sobre cómo configurar grupos.
+Consulte la [documentación de Adobe Admin Console](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) para obtener información sobre cómo configurar grupos.
 
 >[!PREREQUISITES]
 >
@@ -47,7 +40,7 @@ Los usuarios deben pertenecer al grupo de usuarios `Sales Qualifier` para tener 
 
 Estos pasos se realizan en Adobe Admin Console.
 
-1. En el conmutador de aplicaciones de nueve puntos, seleccione **[!UICONTROL Admin Console]**.
+1. En el conmutador de aplicaciones, seleccione **[!UICONTROL Admin Console]**.
 1. Seleccione **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]** > **[!UICONTROL Nuevo grupo de usuarios]**.
 1. Escriba `Sales Qualifier` en el nombre del grupo y seleccione **[!UICONTROL Guardar]**.
 1. Abra **[!UICONTROL Perfiles de producto asignados]** y seleccione **[!UICONTROL Asignar perfil]**.
@@ -72,7 +65,7 @@ También puede crear un grupo `Sales Qualifier BDR managers` opcional. Los miemb
 
 ## Conectar su CRM
 
-Sales Qualifier se conecta a Salesforce o Microsoft Dynamics 365 para proporcionar a los BDR una vista unificada de los usuarios, los posibles clientes, los contactos, las cuentas, las oportunidades, las asignaciones de propietarios y las actividades relacionadas. La conexión inicial requiere acceso de solo lectura a estos datos de CRM. Póngase en contacto con el administrador de CRM para preparar las credenciales antes de conectarse a Sales Qualifier. Consulte [Integraciones](integrations.md) para obtener detalles sobre la integración.
+Sales Qualifier se conecta a Salesforce o Microsoft Dynamics 365 para proporcionar a los BDR una vista unificada de los usuarios, los posibles clientes, los contactos, las cuentas, las oportunidades, las asignaciones de propietarios y las actividades relacionadas. La conexión inicial requiere acceso de solo lectura a estos datos de CRM. Para preparar las credenciales antes de conectarse a Sales Qualifier, trabaje con su administrador de CRM. Consulte [Integraciones](integrations.md) para obtener detalles sobre la integración.
 
 >[!PREREQUISITES]
 >
@@ -93,7 +86,7 @@ Un administrador del sistema de Salesforce crea una aplicación cliente externa 
 >* Modificar todos los datos
 >* Administrar aplicaciones conectadas
 >
->Sin _Administrar aplicaciones conectadas_, el administrador no puede ver el ID de cliente y el secreto de cliente.
+>El administrador requiere _Administrar aplicaciones conectadas_ para ver el ID de cliente y el secreto de cliente.
 
 1. En Salesforce, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Administrador de aplicaciones]** y seleccione **[!UICONTROL Nueva aplicación conectada]** o **[!UICONTROL Nueva aplicación cliente externa]**.
 1. Introduzca un nombre de aplicación y un correo electrónico de contacto administrativo.
@@ -118,7 +111,7 @@ Un administrador del sistema de Salesforce crea una aplicación cliente externa 
    * URL de devolución de llamada
    * URL de instancia de Salesforce
 
-Los pasos pueden ser ligeramente diferentes de como se describe aquí. Consulte [Documentación de Salesforce](https://help.salesforce.com/s/) para obtener más información.
+Los pasos son ligeramente diferentes de los que se describen aquí. Consulte [Documentación de Salesforce](https://help.salesforce.com/s/?language=en_US) para obtener más información.
 
 ### Búsqueda de la URL de instancia de Salesforce
 
@@ -142,7 +135,7 @@ Un administrador de Microsoft Dynamics 365 o Azure registra una aplicación y la
 1. Seleccione la aplicación registrada de Microsoft Entra.
 1. Asigne una función de seguridad que conceda acceso de lectura a posibles clientes, contactos, cuentas, oportunidades y actividades.
 
-   Se requiere una función de seguridad. Sin una, la aplicación no puede acceder a los datos de Dynamics.
+   Se requiere una función de seguridad. Se requiere una función de seguridad para que la aplicación acceda a los datos de Dynamics.
 
 1. Recopile el ID de cliente, el secreto de cliente, el ID de inquilino y la URL de instancia de Dynamics. Use el formulario de URL canónico `https://{{mydomain}}.crm.dynamics.com`.
 
