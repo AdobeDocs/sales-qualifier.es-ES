@@ -12,9 +12,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: 725
 ht-degree: 1%
 
 ---
@@ -46,13 +46,66 @@ AI Chat puede utilizar estas fuentes:
 
 ## Uso del chat de IA
 
-Utilice el chat de IA para las siguientes tareas:
+Utilice el chat de IA para estos tipos de tareas:
 
 * **Investigue y resuma**: pida un resumen de una cuenta, un grupo comprador o la participación reciente de un posible cliente.
 * **Posicionamiento de compilación**: pídale al asistente que coloque la solución para una cuenta específica antes de una reunión.
 * **Borrador y alcance refinado**: pídale que escriba o vuelva a escribir un correo electrónico. Especifique el tono, la longitud, el idioma y si desea incluir los emojis.
 * **Obtener recomendaciones**: Pregunte a qué clientes potenciales o cuentas priorizar o solicite un objetivo o cadencia para un nuevo flujo de trabajo saliente.
 * **Buscar detalles de contacto**: pídale al asistente que enriquezca a un posible cliente con más información de contacto y antecedentes.
+
+## Consulte AI Chat en sus datos conectados
+
+El chat de IA puede responder preguntas en los datos de Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] e inteligencia de la compañía. Haga una pregunta en lenguaje sencillo para buscar información o extraer contexto. AI Chat lee e informa sobre sus datos; no crea, edita ni inicia nada.
+
+A continuación se muestran algunos ejemplos de indicadores. Cuanto más específico sea el mensaje, más centrados serán los resultados.
+
+Perspectivas y cuentas:
+
+* &quot;Encuentre clientes potenciales con estado de participación Nuevo&quot;.
+* &quot;Investigue la empresa Adobe&quot;.
+* &quot;Dame el perfil completo para un cliente potencial&quot;.
+* &quot;Mostrar rendimiento saliente durante los últimos 30 días&quot;.
+* &quot;Enumerar las reuniones reservadas de los últimos 30 días.&quot;
+
+Centro de conocimientos:
+
+* &quot;¿Qué garantía tenemos para gestionar las objeciones de precios?&quot;
+* &quot;¿Cuáles son nuestros principales diferenciadores frente a la competencia?&quot;
+* &quot;Enumerar documentos en el Centro de conocimientos&quot;.
+* &quot;Resumir un documento&quot;.
+
+CRM:
+
+* &quot;Enumerar las oportunidades abiertas&quot;.
+* &quot;Enumerar los cinco primeros posibles clientes con nombre y correo electrónico&quot;.
+* &quot;Mostrar las actividades de ventas de un posible cliente o una cuenta&quot;.
+
+[!DNL Marketo]:
+
+* &quot;Examinar mis campañas inteligentes&quot;.
+* &quot;Obtener la lista inteligente denominada &#39;Adquirido&#39;&quot;.
+* &quot;Examine mis programas o consiga un programa por su nombre&quot;.
+* &quot;Enumerar [!DNL Marketo] tipos de actividades.&quot;
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* &quot;¿Cuántos recorridos tengo?&quot;
+* &quot;¿Cómo se segmenta mi audiencia por persona?&quot;
+* &quot;¿Qué páginas de aterrizaje existen en mi cuenta?&quot;
+* &quot;¿Qué campos de plomo alimentan la puntuación?&quot;
+
+Inteligencia de la empresa:
+
+* &quot;¿Qué tecnologías utiliza una empresa?&quot;
+* &quot;Mostrar noticias recientes para una empresa&quot;.
+* &quot;Buscar compañías similares a una compañía determinada.&quot;
+* &quot;Enumerar las ofertas de empleo abiertas para una empresa&quot;.
+
+### Alcance y límites actuales
+
+* AI Chat lee e informa sobre sus datos. No crea, edita ni inicia nada. Por ejemplo, no crea un programa, no inicia una campaña ni edita una lista.
+* AI Chat busca información; no es una herramienta de creación de informes. No genera análisis ni tendencias del estilo [!DNL Marketo] a lo largo del tiempo, como el estado del correo electrónico del trimestre o una lista de posibles clientes creados en los últimos 10 días. Use los informes [!DNL Marketo] nativos para estas tareas.
 
 ## Respuestas básicas en su guía de estrategias
 

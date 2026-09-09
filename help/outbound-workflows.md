@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1923
+source-wordcount: 2062
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ El asistente de flujo de trabajo saliente consta de cinco pasos: **[!UICONTROL O
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Flujos de trabajo de salida]**.
 1. En la ficha **[!UICONTROL Examinar]**, seleccione **[!UICONTROL + Crear flujo de trabajo saliente]** en la esquina superior derecha.
 
+Los administradores pueden asignar el flujo de trabajo saliente a un compañero de equipo en lugar de a ellos mismos. Antes de iniciar el flujo de trabajo, seleccione **[!UICONTROL Asignar usuario]** en el menú desplegable y elija al compañero de equipo.
+
 ### Paso 1: Defina su objetivo
 
 El objetivo define el resultado deseado y guía la segmentación, la cadencia y la generación de correo electrónico.
@@ -87,7 +89,7 @@ Después de configurar el direccionamiento, la IA analiza el objetivo y los crit
 
 ![Puntos de contacto](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
-Expanda un punto de contacto de correo electrónico para leer su solicitud. El mensaje guía la IA a medida que escribe el correo electrónico de cada posible cliente, incluido el tono, la longitud, el enfoque y el call to action.
+Para leer su mensaje, expanda un punto de contacto de correo electrónico. El mensaje guía la IA a medida que escribe el correo electrónico de cada posible cliente, incluidos el tono, la longitud, el enfoque y el call to action.
 
 Al escribir una barra diagonal `/`, aparece la lista de tokens definidos que puede utilizar para personalizar el correo electrónico.
 
@@ -127,7 +129,9 @@ El paso **[!UICONTROL Configuración]** controla cómo se ejecuta el flujo de tr
 1. En **[!UICONTROL Permisos]**, mantenga **[!UICONTROL Privado]** (predeterminado) o seleccione **[!UICONTROL Compartido con todos]**. Para obtener más información, consulte [Compartir un flujo de trabajo saliente](#share-an-outbound-workflow).
 1. Seleccione **[!UICONTROL Guardar y agregar clientes potenciales]**.
 
-Un administrador configura globalmente el pie de página de exclusión y se aplica a los correos electrónicos salientes independientemente de la configuración del flujo de trabajo saliente. Consulte [Configurar la exclusión de correo electrónico global](integrations.md#configure-global-email-opt-out).
+Para revertir la ventana de envío, zona horaria, días, reglas de seguimiento y de Fuera de la oficina, visibilidad y cadencia de sugerencias a sus valores predeterminados, active **[!UICONTROL Restablecer a la configuración predeterminada]**. El nombre del flujo de trabajo saliente se deja sin cambiar.
+
+Un administrador configura el pie de página de exclusión de forma global, que se aplica a los correos electrónicos salientes independientemente de la configuración del flujo de trabajo saliente. Consulte [Configurar la exclusión de correo electrónico global](integrations.md#configure-global-email-opt-out).
 
 ### Paso 5: Añadir clientes potenciales e iniciar la generación de correo electrónico
 
@@ -144,6 +148,10 @@ Guardar abre la vista de selección de clientes potenciales con los filtros de o
 AI genera un correo electrónico personalizado para cada cliente potencial y punto de contacto de correo electrónico seleccionados. Los puntos de contacto de Phone y LinkedIn In InMail siguen siendo pasos programados. Para continuar trabajando durante la generación, seleccione **[!UICONTROL Notificar cuando esté listo]**.
 
 Para cada cliente potencial, la IA combina el mensaje del punto de contacto con los datos de la persona y la cuenta, el historial de participación y las noticias recientes para producir una línea de asunto y un cuerpo.
+
+Los correos electrónicos generados utilizan cualquier dato adicional guardado en un cliente potencial, incluidos los [campos personalizados importados con el cliente potencial](prospects.md#build-your-prospect-list), por lo que los borradores son más relevantes. No hay una lista fija de campos admitidos, y los campos nuevos o personalizados funcionan sin una configuración adicional. La inteligencia artificial aplicada utiliza estos datos cuando son relevantes; si un cliente potencial no tiene datos adicionales, la generación de correo electrónico funciona como antes.
+
+Los correos electrónicos también se pueden generar en el idioma del posible cliente, con saludos correctos, frases naturales y un tono comercial apropiado. Los idiomas admitidos son francés, alemán, español y más.
 
 ## Revisar y perfeccionar correos electrónicos generados
 
@@ -192,7 +200,7 @@ La aprobación activa la cadencia de un cliente potencial. El sistema no envía 
 1. En la lista de clientes potenciales de la izquierda, seleccione los clientes potenciales cuyos correos electrónicos ha revisado y que están listos para enviar.
 1. Seleccione **[!UICONTROL Aprobar e inscribir clientes potenciales]** en la esquina inferior derecha.
 
-Los correos electrónicos aprobados se envían según los días seleccionados, la ventana de envío, la opción de horas activas y la configuración de zona horaria del flujo de trabajo saliente. Un punto de contacto con un retraso cero envía sin espera; cada uno de los demás puntos de contacto sigue su retraso configurado. Los posibles clientes no aprobados permanecen en **[!UICONTROL Listo para revisión]**.
+Los correos electrónicos aprobados se envían según los días seleccionados, la ventana de envío, la opción de horas activas y la configuración de zona horaria del flujo de trabajo saliente. Un punto de contacto con retraso cero envía inmediatamente; cada otro punto de contacto sigue su retraso configurado. Los posibles clientes no aprobados permanecen en **[!UICONTROL Listo para revisión]**.
 
 ## Compartir un flujo de trabajo saliente
 
@@ -202,7 +210,7 @@ Cada flujo de trabajo saliente tiene una configuración **[!UICONTROL Permission
 >
 >Compartir es permanente. Después de establecer un flujo de trabajo saliente en **[!UICONTROL Compartido con todos]**, no se puede volver a cambiar a **[!UICONTROL Privado]**.
 
-En un flujo de trabajo saliente compartido, los compañeros de equipo pueden inscribir a sus propios posibles clientes. Cada persona puede administrar o pausar solo los clientes potenciales en los que se ha inscrito, incluso cuando se utilizan acciones masivas. El propietario del flujo de trabajo saliente solo puede editar la configuración del nivel de plan, incluida la programación, la zona horaria, la cadencia y otras opciones. Esta configuración es de solo lectura para compañeros de equipo.
+En un flujo de trabajo saliente compartido, los compañeros de equipo pueden inscribir a sus propios posibles clientes. Cada persona puede administrar o pausar solo los clientes potenciales en los que se ha inscrito, incluso cuando se utilizan acciones masivas. El propietario del flujo de trabajo saliente solo puede editar la configuración del nivel de plan, incluida la programación, la zona horaria y la cadencia. Esta configuración es de solo lectura para compañeros de equipo.
 
 Utilice estos filtros para mantener centrados los flujos de trabajo salientes compartidos y los resultados:
 

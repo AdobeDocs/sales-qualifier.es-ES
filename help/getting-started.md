@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Los usuarios deben pertenecer al grupo de usuarios `Sales Qualifier` para tener 
 
 Estos pasos se realizan en Adobe Admin Console.
 
-1. En el conmutador de aplicaciones de nueve puntos, seleccione **[!UICONTROL Admin Console]**.
+1. En el conmutador de aplicaciones, seleccione **[!UICONTROL Admin Console]**.
 1. Seleccione **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]** > **[!UICONTROL Nuevo grupo de usuarios]**.
 1. Escriba `Sales Qualifier` en el nombre del grupo y seleccione **[!UICONTROL Guardar]**.
 1. Abra **[!UICONTROL Perfiles de producto asignados]** y seleccione **[!UICONTROL Asignar perfil]**.
@@ -72,7 +72,7 @@ También puede crear un grupo `Sales Qualifier BDR managers` opcional. Los miemb
 
 ## Conectar su CRM
 
-Sales Qualifier se conecta a Salesforce o Microsoft Dynamics 365 para proporcionar a los BDR una vista unificada de los usuarios, los posibles clientes, los contactos, las cuentas, las oportunidades, las asignaciones de propietarios y las actividades relacionadas. La conexión inicial requiere acceso de solo lectura a estos datos de CRM. Póngase en contacto con el administrador de CRM para preparar las credenciales antes de conectarse a Sales Qualifier. Consulte [Integraciones](integrations.md) para obtener detalles sobre la integración.
+Sales Qualifier se conecta a Salesforce o Microsoft Dynamics 365 para proporcionar a los BDR una vista unificada de los usuarios, los posibles clientes, los contactos, las cuentas, las oportunidades, las asignaciones de propietarios y las actividades relacionadas. La conexión inicial requiere acceso de solo lectura a estos datos de CRM. Para preparar las credenciales antes de conectarse a Sales Qualifier, trabaje con su administrador de CRM. Consulte [Integraciones](integrations.md) para obtener detalles sobre la integración.
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Un administrador del sistema de Salesforce crea una aplicación cliente externa 
 >* Modificar todos los datos
 >* Administrar aplicaciones conectadas
 >
->Sin _Administrar aplicaciones conectadas_, el administrador no puede ver el ID de cliente y el secreto de cliente.
+>El administrador requiere _Administrar aplicaciones conectadas_ para ver el ID de cliente y el secreto de cliente.
 
 1. En Salesforce, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Administrador de aplicaciones]** y seleccione **[!UICONTROL Nueva aplicación conectada]** o **[!UICONTROL Nueva aplicación cliente externa]**.
 1. Introduzca un nombre de aplicación y un correo electrónico de contacto administrativo.
@@ -118,7 +118,7 @@ Un administrador del sistema de Salesforce crea una aplicación cliente externa 
    * URL de devolución de llamada
    * URL de instancia de Salesforce
 
-Los pasos pueden ser ligeramente diferentes de como se describe aquí. Consulte [Documentación de Salesforce](https://help.salesforce.com/s/) para obtener más información.
+Los pasos son ligeramente diferentes de los que se describen aquí. Consulte [Documentación de Salesforce](https://help.salesforce.com/s/?language=en_US) para obtener más información.
 
 ### Búsqueda de la URL de instancia de Salesforce
 
@@ -142,7 +142,7 @@ Un administrador de Microsoft Dynamics 365 o Azure registra una aplicación y la
 1. Seleccione la aplicación registrada de Microsoft Entra.
 1. Asigne una función de seguridad que conceda acceso de lectura a posibles clientes, contactos, cuentas, oportunidades y actividades.
 
-   Se requiere una función de seguridad. Sin una, la aplicación no puede acceder a los datos de Dynamics.
+   Se requiere una función de seguridad. Se requiere una función de seguridad para que la aplicación acceda a los datos de Dynamics.
 
 1. Recopile el ID de cliente, el secreto de cliente, el ID de inquilino y la URL de instancia de Dynamics. Use el formulario de URL canónico `https://{{mydomain}}.crm.dynamics.com`.
 

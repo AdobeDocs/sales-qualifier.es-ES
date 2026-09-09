@@ -6,9 +6,9 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 401
 ht-degree: 0%
 
 ---
@@ -33,17 +33,18 @@ Estos controles se aplican a todas las vistas y pestañas:
 
 ### Pestaña Información general
 
-La pestaña **[!UICONTROL Información general]** resume los resultados salientes de un vistazo. Haga clic en cualquiera de los cuadros para mostrar el gráfico con esa información.
+La pestaña **[!UICONTROL Información general]** resume los resultados salientes. Haga clic en cualquiera de los cuadros para mostrar el gráfico con esa información.
 
 * **Mosaicos**: Canalización, participación por correo electrónico y actividad manual, cada uno con un cambio de tendencia con respecto al período anterior.
 * **Gráfico de tendencias de rendimiento**: Rendimiento saliente durante el período de tiempo seleccionado.
-* Tabla **[!UICONTROL Actividad del equipo]**: actividad desglosada por representante.
+* Tabla **[!UICONTROL Actividad del equipo]**: Actividad clasificada por representante.
+* **Prospectos totales**: El número total de prospectos, no solo los activos, por lo que el volumen saliente total no se subestima.
 
 ### Pestaña Correos electrónicos
 
 La pestaña **[!UICONTROL Correos electrónicos]** informa sobre el volumen y la eficacia del correo electrónico:
 
-* **Mosaicos**: Correos electrónicos enviados, abiertos, en los que se hizo clic y a los que se respondió.
+* **Mosaicos**: tasa de apertura y tasa de clics, mostradas de forma predeterminada para que el rendimiento sea comparable entre campañas de distinto volumen. Seleccione el botón de alternancia para ver los recuentos sin procesar de correos electrónicos enviados, abiertos, pulsados y respondidos en su lugar.
 * **Gráfico de tendencias de correo electrónico semanal**: Actividad de correo electrónico por semana.
 * Tabla de rendimiento de correo electrónico por representante.
 
@@ -61,9 +62,9 @@ La ficha **[!UICONTROL Tareas]** informa sobre la divulgación manual:
 
 **[!UICONTROL Rendimiento de la campaña]** informa sobre los resultados salientes por campaña de flujo de trabajo saliente:
 
-* **Mosaicos KPI**: clientes potenciales activos, tasa de apertura, tasa de clics, tasa de respuesta y reuniones reservadas.
+* **Mosaicos KPI**: clientes potenciales activos, tasa de apertura, tasa de clics, tasa de respuesta y reuniones reservadas. El sistema muestra la tasa de apertura y clics de forma predeterminada, de modo que el rendimiento sea comparable entre campañas de distintos volúmenes. Seleccione el conmutador para ver los recuentos sin procesar en su lugar.
 * **Gráfico de tendencias de métricas de campaña**: KPI de campaña durante el período de tiempo seleccionado.
-* Tabla **[!UICONTROL Campañas]**: correo electrónico, reunión, llamada y actividad de mensaje de LinkedIn para cada campaña. Expanda una fila de campaña para ver los detalles de nivel representativo de esa campaña.
+* Tabla **[!UICONTROL Campañas]**: correo electrónico, reunión, llamada y actividad de mensaje de LinkedIn para cada campaña. Para ver los detalles de nivel representativo de una campaña, expanda su fila.
 
 Consulte [Reserva de reuniones](outbound-workflows.md#meeting-booking) para ver cómo se generan las reservas.
 
