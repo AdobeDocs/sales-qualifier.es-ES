@@ -89,7 +89,7 @@ Para crear el webhook:
 1. Seleccione **[!UICONTROL Nuevo webhook]**.
 1. Establece **[!UICONTROL URL]** a la URL de punto final para tu región desde [Parte B](#part-b-gather-your-endpoint-and-identifiers).
 1. Establecer **[!UICONTROL tipo de solicitud]** en `POST`.
-1. Establezca la codificación de token de solicitud **[!UICONTROL 1} en `JSON`.]** Esta configuración es obligatoria.
+1. Establezca la codificación de token de solicitud **[!UICONTROL 1&rbrace; en `JSON`.]** Esta configuración es obligatoria.
 1. Pegue la plantilla de carga útil siguiente en **[!UICONTROL Template]**. Use **[!UICONTROL Insertar token]** de [!DNL Marketo] para que coincidan con los nombres de campo de su instancia.
 
    >[!NOTE]
