@@ -1,23 +1,25 @@
 ---
-title: Clientes potenciales en Sales Qualifier
-description: Obtenga información sobre cómo crear su lista de clientes potenciales desde CRM, fuentes importadas y agregadas manualmente, filtrar clientes potenciales y revisar los detalles del cliente potencial en Sales Qualifier.
+title: Clientes potenciales en Adobe Marketo Qualifier
+description: Obtenga información sobre cómo crear su lista de clientes potenciales desde CRM, fuentes importadas y agregadas manualmente, filtrar clientes potenciales y revisar los detalles del cliente potencial en Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # Clientes potenciales
 
@@ -34,9 +36,9 @@ Seleccione **[!UICONTROL Clientes potenciales]** en el panel de navegación izqu
 
 La lista de clientes potenciales combina personas de más de una fuente:
 
-* **clientes potenciales de CRM**: Sales Qualifier importa automáticamente los posibles clientes y contactos asignados al usuario conectado. Consulte [Integraciones](integrations.md).
+* **clientes potenciales de CRM**: el calificador de Adobe Marketo importa automáticamente los posibles clientes y contactos asignados al usuario conectado. Consulte [Integraciones](integrations.md).
 * **Clientes potenciales importados**: clientes potenciales importados desde un archivo CSV.
-* **Perspectivas agregadas manualmente**: Perspectivas individuales agregadas en Sales Qualifier.
+* **Perspectivas agregadas manualmente**: perspectivas individuales agregadas en el calificador de Marketo.
 
 Para agregar clientes potenciales que no provienen de su CRM:
 
@@ -48,7 +50,7 @@ Para agregar clientes potenciales que no provienen de su CRM:
 
    * Para una importación de CSV, cargue un CSV en formato `firstname,email`.
      El nombre y el correo electrónico son obligatorios. El apellido es opcional. La plantilla CSV no incluye la columna ID de posible cliente de CRM, pero puede agregar la columna y sus valores al archivo antes de la importación. Si la importación falla, revise el mensaje de error de los campos o valores para corregirlos y, a continuación, cargue el archivo de nuevo.
-     Asigne cualquier campo CSV personalizado o adicional, no solo los estándar. Sales Qualifier guarda estos valores en cada posible cliente y los pone a disposición más adelante, incluso para la [generación de correo electrónico](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+     Asigne cualquier campo CSV personalizado o adicional, no solo los estándar. El calificador de Marketo guarda estos valores en cada cliente potencial y los pone a disposición más adelante, incluso para la [generación de correo electrónico](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Para añadir a una persona manualmente, introduzca sus detalles en el formulario.
 
 1. Seleccione **[!UICONTROL Guardar]**.
@@ -79,7 +81,7 @@ Para filtrar posibles clientes por Aspectos destacados de marketing:
 
 Cada posible cliente muestra su última actividad [!DNL Marketo] junto con el historial reciente.
 
-Marketing Highlights está disponible en todas las regiones de producción. Un administrador completa una configuración única que conecta a [!DNL Marketo] con Sales Qualifier. Ver [Configurar aspectos destacados de marketing](integrations.md#turn-on-marketo-engagement-filtering).
+Marketing Highlights está disponible en todas las regiones de producción. Un administrador completa una configuración única que conecta a [!DNL Marketo] con el calificador de Marketo. Ver [Configurar aspectos destacados de marketing](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Revisar detalles del cliente potencial
 

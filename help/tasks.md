@@ -1,21 +1,22 @@
 ---
-title: Tareas en Sales Qualifier
-description: Aprenda a procesar tareas de alcance manuales y a revisar los posibles clientes sugeridos por el agente en la cola de tareas de Sales Qualifier.
+title: Tareas en Adobe Marketo Qualifier
+description: Aprenda a procesar tareas de alcance manuales y a revisar los posibles clientes sugeridos por el agente en la cola de tareas Calificador de Adobe Marketo.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # Tareas
 
@@ -44,7 +45,7 @@ Las tareas manuales están vinculadas a los pasos del flujo de trabajo saliente 
 
 * **[!UICONTROL LinkedIn In InMail]**: se crea cuando una cadencia alcanza un paso de LinkedIn In InMail. El panel de trabajo muestra el contenido que se copia y envía desde LinkedIn. Expanda **[!UICONTROL Motivo de IA]** para revisar el motivo.
 
-* **[!UICONTROL Revisión de correo electrónico]**: Creada después de que Sales Qualifier genere los correos electrónicos personalizados de un cliente potencial. Seleccione **[!UICONTROL Revisar correos electrónicos]** para revisar y aprobar los borradores antes de que comience el alcance. Ver [Revisar y perfeccionar los correos electrónicos generados](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL Revisión de correo electrónico]**: Creada después de que el calificador de Adobe Marketo genere los correos electrónicos personalizados de un cliente potencial. Seleccione **[!UICONTROL Revisar correos electrónicos]** para revisar y aprobar los borradores antes de que comience el alcance. Ver [Revisar y perfeccionar los correos electrónicos generados](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![Revisión de correo electrónico](assets/tasks-review.png)
 

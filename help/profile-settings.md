@@ -1,21 +1,22 @@
 ---
 title: Ajustar configuración de perfil
-description: Obtenga información sobre cómo configurar la conexión de correo electrónico, la firma y la disponibilidad del calendario en la configuración del perfil de Sales Qualifier.
+description: Obtenga información sobre cómo configurar la conexión de correo electrónico, la firma y la disponibilidad del calendario en la configuración del perfil Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '396'
 ht-degree: 3%
-
 ---
-
 
 # Configuración de perfil
 
@@ -65,12 +66,12 @@ Si desconecta el calendario:
 
 ## Disponibilidad del calendario
 
-La disponibilidad del calendario en Sales Qualifier se basa en dos entradas:
+La disponibilidad del calendario en Adobe Marketo Qualifier se basa en dos entradas:
 
 * Calendario de trabajo conectado, como Outlook o Gmail
 * Las reglas de disponibilidad y de franja horaria de **[!UICONTROL Configuración del calendario]**
 
-Sales Qualifier lee el estado de disponibilidad, no los detalles del evento, del calendario conectado. Combina este estado con las reglas para determinar los espacios de tiempo que los posibles clientes pueden reservar.
+El calificador de Marketo lee el estado de disponibilidad, no los detalles del evento, del calendario conectado. Combina este estado con las reglas para determinar los espacios de tiempo que los posibles clientes pueden reservar.
 
 Puede configurar lo siguiente:
 

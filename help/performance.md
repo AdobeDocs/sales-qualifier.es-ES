@@ -1,20 +1,20 @@
 ---
-title: Rendimiento de salida en Sales Qualifier
-description: Obtenga información sobre cómo revisar los informes Rendimiento de la organización y Rendimiento de la campaña en Sales Qualifier para rastrear la actividad y los resultados salientes.
+title: Rendimiento de salida en Adobe Marketo Qualifier
+description: Obtenga información sobre cómo revisar los informes de Rendimiento de la organización y Rendimiento de la campaña en Adobe Marketo Qualifier para rastrear la actividad y los resultados salientes.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Rendimiento de salida en Sales Qualifier
+# Rendimiento de salida en Adobe Marketo Qualifier
 
 En el panel de navegación de la izquierda, seleccione **[!UICONTROL Rendimiento de salida]** para rastrear la actividad y los resultados de salida de su equipo. El tablero tiene dos vistas: **[!UICONTROL Rendimiento de la organización]** y **[!UICONTROL Rendimiento de la campaña]**.
 
@@ -48,7 +48,7 @@ La pestaña **[!UICONTROL Correos electrónicos]** informa sobre el volumen y la
 * **Gráfico de tendencias de correo electrónico semanal**: Actividad de correo electrónico por semana.
 * Tabla de rendimiento de correo electrónico por representante.
 
-Sales Qualifier asigna estados independientes a las respuestas y devoluciones fuera de la oficina para que pueda distinguirlas de la participación del cliente potencial.
+El calificador de Marketo asigna estados independientes a las respuestas y devoluciones fuera de la oficina para que pueda distinguirlas del compromiso del cliente potencial.
 
 ### Pestaña Tareas
 

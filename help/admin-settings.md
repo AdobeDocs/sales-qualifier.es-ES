@@ -1,46 +1,48 @@
 ---
 title: Configuración de administración
-description: Obtenga información sobre cómo administrar campos CRM, sincronización de actividades, exclusión de correo electrónico y otras configuraciones de administración de Sales Qualifier.
+description: Obtenga información sobre cómo administrar los campos de CRM, la sincronización de actividades, la exclusión de correo electrónico y otras configuraciones de administración de Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
+
 internal-label: Administration
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: '1091'
 ht-degree: 0%
-
 ---
-
 
 # Configuración de administración
 
 Use **[!UICONTROL Configuración de administración]** para configurar integraciones de CRM, administrar el Centro de conocimiento y configurar la exclusión de correo electrónico.
 
-Sales Qualifier se conecta a Salesforce o Microsoft Dynamics 365. La conexión proporciona a Account Qualification Agent (AQA) una vista coherente de los posibles clientes, las cuentas, los contactos, las actividades y los propietarios. Sales Qualifier también puede escribir actividades de divulgación y estados de exclusión en CRM y sincronizar las actividades de divulgación con Marketo.
+Adobe Marketo Qualifier se conecta a Salesforce o a Microsoft Dynamics 365. La conexión proporciona a Account Qualification Agent (AQA) una vista coherente de los posibles clientes, las cuentas, los contactos, las actividades y los propietarios. Marketo Qualifier también puede escribir actividades de divulgación y el estado de exclusión en CRM y sincronizar las actividades de divulgación con Marketo.
 
 Para configurar las conexiones de CRM, la asignación de campos y la sincronización de actividades, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Conexiones de CRM]**. Los usuarios estándar pueden utilizar los datos y filtros de CRM configurados, pero no pueden cambiar esta configuración. Para conectar un CRM por primera vez, consulte [Introducción](getting-started.md#connect-your-crm).
 
 >[!IMPORTANT]
 >
->El acceso a **[!UICONTROL Configuración de administración]** requiere la pertenencia a los grupos de usuarios `Sales Qualifier` y `Sales Qualifier Admins`.
+>El acceso a **[!UICONTROL Configuración de administración]** requiere la pertenencia a los grupos de usuarios `Marketo Qualifier` y `Marketo Qualifier Admins`.
 
 ## CRM MCP y el complemento incrustado
 
-Sales Qualifier trabaja con su CRM de las siguientes maneras:
+Marketo Qualifier trabaja con su CRM de las siguientes maneras:
 
 * **CRM MCP queries**: Account Qualification Agent consulta datos de CRM activos para que las respuestas y perspectivas reflejen el estado actual de sus registros.
-* **Complemento incrustado**: el complemento CRM muestra [!DNL Marketo Sales Insights] (MSI) datos y datos auténticos en su CRM. Utilice el complemento para agregar un cliente potencial a Sales Qualifier.
+* **Complemento incrustado**: el complemento CRM muestra [!DNL Marketo Sales Insights] (MSI) datos y datos auténticos en su CRM. Utilice el complemento para agregar un cliente potencial al Calificador de Marketo.
 * **Sincronización de actividades**: cuando un administrador activa **[!UICONTROL Sincronización de actividades]**, las actividades de alcance se sincronizan con CRM y Marketo.
 
 ## Ámbito de acceso CRM
 
-Sales Qualifier lee usuarios, contactos, asignaciones de propietarios, posibles clientes, cuentas, oportunidades y actividades desde CRM. Solo escribe las actividades de divulgación registradas y el estado de exclusión en CRM, y sincroniza las actividades de divulgación con Marketo. El administrador de CRM prepara el acceso a la API en Salesforce o Dynamics. A continuación, un administrador de Sales Qualifier conecta el CRM, asigna campos de entrada y elige si desea sincronizar las actividades.
+Marketo Qualifier lee usuarios, contactos, asignaciones de propietarios, posibles clientes, cuentas, oportunidades y actividades desde CRM. Solo escribe las actividades de divulgación registradas y el estado de exclusión en CRM, y sincroniza las actividades de divulgación con Marketo. El administrador de CRM prepara el acceso a la API en Salesforce o Dynamics. A continuación, un administrador del calificador de Marketo conecta el CRM, asigna los campos de entrada y elige si desea sincronizar las actividades.
 
 >[!NOTE]
 >
@@ -48,7 +50,7 @@ Sales Qualifier lee usuarios, contactos, asignaciones de propietarios, posibles 
 
 ## Asignar campos CRM (asignación de entrada)
 
-Una vez conectado el CRM, seleccione **[!UICONTROL Administrar]** para la conexión y abra **[!UICONTROL Asignación entrante]**. La asignación de entrada controla qué campos CRM extrae Sales Qualifier en la aplicación.
+Una vez conectado el CRM, seleccione **[!UICONTROL Administrar]** para la conexión y abra **[!UICONTROL Asignación entrante]**. La asignación de entrada controla qué campos CRM extrae Marketo Qualifier en la aplicación.
 
 1. Seleccione **[!UICONTROL Agregar sección]**.
 1. Introduzca un nombre de sección y una descripción.
@@ -60,7 +62,7 @@ Una vez conectado el CRM, seleccione **[!UICONTROL Administrar]** para la conexi
 1. Active **[!UICONTROL Filtrable]** para cada cliente potencial, contacto o campo de oportunidad que desee poner a disposición como filtro en la lista de **[!UICONTROL clientes potenciales]**.
 1. Previsualice la sección y seleccione **[!UICONTROL Agregar]**.
 
-Los campos asignados aparecen en las áreas correspondientes de Sales Qualifier:
+Los campos asignados aparecen en las áreas correspondientes de Marketo Qualifier:
 
 * Los campos de clientes potenciales aparecen en la ficha **[!UICONTROL Persona]**.
 * Los campos de cuenta aparecen en la ficha **[!UICONTROL Cuenta]**.
@@ -70,13 +72,13 @@ Los campos asignados aparecen en las áreas correspondientes de Sales Qualifier:
 
 1. De **[!UICONTROL conexiones CRM]**, seleccione **[!UICONTROL Administrar]** para el CRM conectado.
 1. Abrir **[!UICONTROL asignación saliente]**.
-1. Active **[!UICONTROL Sincronización de actividades]** para sincronizar las actividades de Sales Qualifier con CRM y Marketo.
+1. Active **[!UICONTROL Sincronización de actividades]** para sincronizar las actividades de extensión de Marketo Qualifier con CRM y Marketo.
 
-Cuando la sincronización de actividades está desactivada, Sales Qualifier sigue utilizando datos CRM entrantes, pero no sincroniza las actividades de divulgación con su CRM o Marketo.
+Cuando la sincronización de actividades está desactivada, el Calificador de Marketo sigue utilizando datos de CRM de entrada, pero no sincroniza las actividades de divulgación con su CRM o Marketo.
 
 ## Configurar reglas de sincronización de CRM
 
-Sales Qualifier puede escribir las actualizaciones de estado de los posibles clientes en Salesforce y Microsoft Dynamics automáticamente a medida que un posible cliente avanza a través de un flujo de trabajo saliente, de modo que los representantes ya no actualicen el CRM manualmente.
+Marketo Qualifier puede escribir las actualizaciones de estado de los posibles clientes en Salesforce y Microsoft Dynamics automáticamente a medida que un posible cliente avanza por un flujo de trabajo saliente, de modo que los representantes ya no actualicen el CRM manualmente.
 
 ### Qué hacen las reglas de sincronización CRM
 
@@ -104,13 +106,13 @@ Con las reglas de sincronización de CRM configuradas, los equipos de ventas ven
 
 ## Creación de un manual de centro de conocimiento {#knowledge-center}
 
-El **[!UICONTROL Centro de conocimientos]** proporciona a Account Qualification Agent (AQA) acceso a sus materiales de ventas. Sales Qualifier utiliza estos materiales para generar investigaciones, perspectivas de cualificación y actividades de divulgación que reflejen las ventas de su organización. Solo los administradores pueden crear y administrar el manual de implementación.
+El **[!UICONTROL Centro de conocimientos]** proporciona a Account Qualification Agent (AQA) acceso a sus materiales de ventas. Marketo Qualifier utiliza estos materiales para generar investigaciones, perspectivas de cualificación y divulgación que reflejen las ventas de su organización. Solo los administradores pueden crear y administrar el manual de implementación.
 
 ![Centro de conocimientos](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]**, seleccione **[!UICONTROL Configuración de administración]** y seleccione **[!UICONTROL Centro de conocimiento]**
 1. u
-1. Establezca **[!UICONTROL Nombre de la compañía]** y **[!UICONTROL Dirección URL de la compañía]** que Sales Qualifier usa para investigar su compañía y redactar correos electrónicos.
+1. Establezca **[!UICONTROL Nombre de la compañía]** y **[!UICONTROL URL de la compañía]** que el Calificador de Marketo usa para investigar su compañía y redactar correos electrónicos.
 1. Cargar reproducciones de ventas, perfiles de cliente (ICP) ideales, guías de posicionamiento y otros materiales de promoción de ventas en formato PDF, PPTX o DOCX.
 1. Seleccione **[!UICONTROL Generar libro de estrategias]**.
 
@@ -136,7 +138,7 @@ En ambos casos, el contenido generado refleja la mensajería en su manual en lug
 
 La configuración se guarda automáticamente.
 
-Cuando un cliente potencial selecciona el vínculo, Sales Qualifier deja de enviarle correos electrónicos y sincroniza el estado de exclusión con el CRM conectado.
+Cuando un cliente potencial selecciona el vínculo, el calificador de Marketo deja de enviarle correos electrónicos y sincroniza el estado de exclusión con el CRM conectado.
 
 ## Referencia: Parámetros de API de muestra
 
