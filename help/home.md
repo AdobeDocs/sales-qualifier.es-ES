@@ -45,7 +45,7 @@ Los BDR pueden utilizar los complementos de explorador y correo electrónico par
 
 ::::landing-cards-container
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción
 
@@ -55,7 +55,7 @@ Complete la configuración de administrador única para grupos de usuarios y una
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Clientes potenciales
 
@@ -65,7 +65,7 @@ Genere, filtre y revise su lista de clientes potenciales.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cuentas
 
@@ -75,7 +75,7 @@ Priorice el alcance con los datos de participación y canalización a nivel de c
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Flujos de trabajo salientes
 
@@ -85,7 +85,7 @@ Cree cadencias dirigidas por objetivos con correos electrónicos personalizados 
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Tareas
 
@@ -95,7 +95,7 @@ Procesar llamadas telefónicas, LinkedIn InMail y tareas de revisión de correo 
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Desempeño
 
@@ -105,7 +105,7 @@ Revisar el rendimiento de correo electrónico y reserva de reuniones.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Centro de información
 
@@ -115,7 +115,7 @@ Cree un manual que apoye el alcance y la asistencia de la IA en sus materiales.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Integraciones
 
@@ -125,7 +125,7 @@ Conecte Salesforce o Microsoft Dynamics 365 y asigne los campos.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configuración de perfil
 
@@ -135,7 +135,7 @@ Configure la disponibilidad del correo electrónico, la firma y el calendario.
 :::
 
 :::card
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Chat de IA
 
