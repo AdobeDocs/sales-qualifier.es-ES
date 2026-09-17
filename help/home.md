@@ -1,32 +1,35 @@
 ---
-title: Información general de Sales Qualifier
-description: Obtenga información sobre Sales Qualifier, una aplicación basada en IA que automatiza la calificación de clientes potenciales, la divulgación y la participación del comprador para los equipos de ventas B2B.
+title: Información general sobre Adobe Marketo Qualifier
+description: Obtenga información sobre Adobe Marketo Qualifier, una aplicación basada en IA que automatiza la calificación de clientes potenciales, la divulgación y la participación del comprador para los equipos de ventas B2B.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '394'
 ht-degree: 21%
-
 ---
 
+# Calificador Adobe Marketo
 
-# Calificador de ventas
-
-Adobe Sales Qualifier es una aplicación con tecnología de IA que automatiza la calificación de clientes potenciales, la divulgación y la participación de compradores en canales múltiples para los representantes de desarrollo empresarial (BDR). Account Qualification Agent analiza sus cuentas y clientes potenciales, prioriza las que están listas para el siguiente paso y elabora un alcance personalizado basado en sus datos CRM.
+Adobe Marketo Qualifier es una aplicación con tecnología de IA que automatiza la calificación de clientes potenciales, la divulgación y la participación de compradores en canales múltiples para los representantes de desarrollo empresarial (BDR). Account Qualification Agent analiza sus cuentas y clientes potenciales, prioriza las que están listas para el siguiente paso y elabora un alcance personalizado basado en sus datos CRM.
 
 Los BDR pueden utilizar los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde su CRM o Outlook.
 
-## Qué puede hacer en Sales Qualifier
+## Qué puede hacer en Marketo Qualifier
 
 * **Priorice clientes potenciales y cuentas** con resúmenes de actividad generados por IA y priorización basada en señales.
 * **Cree flujos de trabajo salientes impulsados por objetivos** en los que AI proponga una cadencia y redacte correos electrónicos personalizados para cada posible cliente.

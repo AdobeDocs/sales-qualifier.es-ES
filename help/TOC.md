@@ -1,14 +1,12 @@
 ---
-user-guide-title: Calificador de ventas
-user-guide-description: Aprenda a utilizar Sales Qualifier para automatizar la calificación de clientes potenciales, el alcance y la participación del comprador para los equipos de ventas B2B.
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+user-guide-title: Calificador Adobe Marketo
+user-guide-description: Aprenda a utilizar Adobe Marketo Qualifier para automatizar la calificación de clientes potenciales, el alcance y la participación del comprador para los equipos de ventas B2B.
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 27%
-
+source-wordcount: '51'
+ht-degree: 21%
 ---
-
-# Guía de Sales Qualifier {#using}
+# Guía de Adobe Marketo Qualifier {#using}
 
 + [Información general](home.md)
 + [Notas de la versión](release-notes.md)

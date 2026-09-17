@@ -1,25 +1,29 @@
 ---
 title: Crear y administrar flujos de trabajo salientes
-description: Obtenga información sobre cómo crear, compartir, revisar y administrar flujos de trabajo salientes generados por IA en Sales Qualifier para ejecutar cadencias de alcance impulsadas por objetivos.
+description: Obtenga información sobre cómo crear, compartir, revisar y administrar flujos de trabajo salientes generados por IA en Adobe Marketo Qualifier para ejecutar cadencias de alcance impulsadas por objetivos.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # Flujos de trabajo salientes
 
@@ -155,7 +159,7 @@ Los correos electrónicos también se pueden generar en el idioma del posible cl
 
 ## Revisar y perfeccionar correos electrónicos generados
 
-Cuando finalice la generación, la vista de detalles Flujo de trabajo saliente le pedirá que revise los borradores. Sales Qualifier no envía correos electrónicos hasta que el usuario los aprueba.
+Cuando finalice la generación, la vista de detalles Flujo de trabajo saliente le pedirá que revise los borradores. El calificador de Adobe Marketo no envía correos electrónicos hasta que los aprueba.
 
 1. En la vista de detalles del flujo de trabajo saliente, seleccione **[!UICONTROL Revisar borradores]** en el banner.
 1. El paso **[!UICONTROL Revisar puntos de contacto]** tiene dos pestañas:
@@ -234,10 +238,10 @@ La [Bandeja de salida de correo electrónico](email-outbox.md) enumera los mensa
 
 ## Reserva de reuniones
 
-Al conectar el calendario, Sales Qualifier genera un vínculo de reserva personal que los posibles clientes pueden utilizar para programar el tiempo con usted.
+Al conectar el calendario, Marketo Qualifier genera un vínculo de reserva personal que los posibles clientes pueden utilizar para programar su tiempo.
 
 * **Vínculos de reserva**: configure la conexión y disponibilidad del calendario en [Configuración del perfil](profile-settings.md). Añada el vínculo de reserva a su firma de correo electrónico para que aparezca en los correos electrónicos salientes.
-* **Colocación de cadencia**: Sales Qualifier inserta el vínculo de reserva en los puntos relevantes de una cadencia. Puede cambiar su ubicación.
+* **Colocación de cadencia**: Marketo Qualifier inserta el vínculo de reserva en los puntos relevantes de una cadencia. Puede cambiar su ubicación.
 * **Pausa para reservas**: cuando un cliente potencial reserva una reunión, **[!UICONTROL Pausa para reservas de reuniones]** detiene más seguimientos. Consulte [Paso 4: Configurar los parámetros de flujo de trabajo de salida](#step-4-configure-outbound-workflow-settings).
 
 Rastrear resultados de reservas en la página [Rendimiento de salida](performance.md).
